@@ -1,0 +1,9 @@
+begin aaa2
+.2   23.4  'c'  "hi"
+while
+<--sakdlma
+
+mlsdm-->
+--mlskd
+hi
+true and false False

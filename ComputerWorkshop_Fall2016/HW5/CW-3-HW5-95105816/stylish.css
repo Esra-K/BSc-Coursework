@@ -1,0 +1,17 @@
+﻿
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+ul li
+body
+{
+background-image:url('large1.jpg');
+background-repeat:no-repeat;
+background-attachment:fixed;}
+p{font-family:"forte", Times, serif;}
+p {font-style:italic;}
+h1 {text-align:center;}
+p.date {text-align:right;}
+p.main {text-align:justify;}

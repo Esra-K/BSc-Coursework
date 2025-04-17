@@ -1,0 +1,2952 @@
+[
+  {
+    "name": "MAIN",
+    "nodes": [
+      {
+        "x": 119.66666666666666,
+        "y": 186.99999999999997,
+        "id": 0,
+        "isFinal": false
+      },
+      {
+        "x": 314.6666666666667,
+        "y": 190.33333333333334,
+        "id": 1,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 0,
+        "end": 1,
+        "token": "PROGRAM",
+        "func": "",
+        "anchorX": 217.16666666666666,
+        "anchorY": 188.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 0
+  },
+  {
+    "name": "PROGRAM",
+    "nodes": [
+      {
+        "x": 91.99999999999994,
+        "y": 204.66666666666674,
+        "id": 2,
+        "isFinal": false
+      },
+      {
+        "x": 300.3333333333333,
+        "y": 195.33333333333331,
+        "id": 3,
+        "isFinal": true
+      },
+      {
+        "x": 479.0,
+        "y": 223.33333333333331,
+        "id": 4,
+        "isFinal": true
+      },
+      {
+        "x": 625.0,
+        "y": 224.66666666666669,
+        "id": 5,
+        "isFinal": false
+      },
+      {
+        "x": 765.0,
+        "y": 226.66666666666669,
+        "id": 6,
+        "isFinal": false
+      },
+      {
+        "x": 941.6666666666667,
+        "y": 229.33333333333331,
+        "id": 7,
+        "isFinal": true
+      },
+      {
+        "x": 847.0,
+        "y": 126.66666666666666,
+        "id": 8,
+        "isFinal": false
+      },
+      {
+        "x": 988.3333333333333,
+        "y": 127.33333333333334,
+        "id": 9,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 2,
+        "end": 3,
+        "token": "FUNC_DEF",
+        "func": "",
+        "anchorX": 222.16666666666433,
+        "anchorY": 196.666666666664,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 2,
+        "end": 5,
+        "token": "id",
+        "func": "",
+        "anchorX": 454.8333333333323,
+        "anchorY": 317.99999999999926,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 2,
+        "end": 4,
+        "token": "PROC_DEF",
+        "func": "",
+        "anchorX": 344.49999999999903,
+        "anchorY": 224.66666666666669,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "token": "PROC_DEF",
+        "func": "",
+        "anchorX": 403.0,
+        "anchorY": 180.9999999999992,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 3,
+        "end": 5,
+        "token": "id",
+        "func": "",
+        "anchorX": 468.0,
+        "anchorY": 119.33333333333331,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 3,
+        "end": 3,
+        "token": "FUNC_DEF",
+        "func": "",
+        "anchorX": 300.3333333333333,
+        "anchorY": 155.3333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 4,
+        "end": 5,
+        "token": "id",
+        "func": "",
+        "anchorX": 552.0,
+        "anchorY": 224.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 4,
+        "end": 4,
+        "token": "PROC_DEF",
+        "func": "",
+        "anchorX": 508.33333333333314,
+        "anchorY": 180.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 5,
+        "end": 6,
+        "token": ":",
+        "func": "",
+        "anchorX": 695.0,
+        "anchorY": 225.66666666666669,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "token": "VAR_DECL",
+        "func": "",
+        "anchorX": 822.6666666666641,
+        "anchorY": 227.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 7,
+        "end": 8,
+        "token": "id",
+        "func": "",
+        "anchorX": 894.3333333333334,
+        "anchorY": 178.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 8,
+        "end": 9,
+        "token": ":",
+        "func": "",
+        "anchorX": 917.6666666666666,
+        "anchorY": 127.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 9,
+        "end": 7,
+        "token": "VAR_DECL",
+        "func": "",
+        "anchorX": 965.0,
+        "anchorY": 178.33333333333334,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 2
+  },
+  {
+    "name": "SIMPLE_VAR",
+    "nodes": [
+      {
+        "x": 228.66666666666669,
+        "y": 178.66666666666666,
+        "id": 10,
+        "isFinal": false
+      },
+      {
+        "x": 317.3333333333333,
+        "y": 210.0,
+        "id": 11,
+        "isFinal": true
+      },
+      {
+        "x": 432.66666666666674,
+        "y": 242.66666666666666,
+        "id": 12,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 10,
+        "end": 11,
+        "token": "TYPE",
+        "func": "",
+        "anchorX": 271.66666666666595,
+        "anchorY": 192.9999999999988,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 11,
+        "end": 12,
+        "token": "ASSIGNMENT",
+        "func": "",
+        "anchorX": 357.9999999999977,
+        "anchorY": 220.33333333333277,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 10
+  },
+  {
+    "name": "ARRAY_VAR",
+    "nodes": [
+      {
+        "x": 217.33333333333331,
+        "y": 150.0,
+        "id": 13,
+        "isFinal": false
+      },
+      {
+        "x": 298.66666666666674,
+        "y": 253.99999999999991,
+        "id": 14,
+        "isFinal": false
+      },
+      {
+        "x": 372.0,
+        "y": 349.3333333333333,
+        "id": 15,
+        "isFinal": false
+      },
+      {
+        "x": 462.0,
+        "y": 462.6666666666667,
+        "id": 16,
+        "isFinal": false
+      },
+      {
+        "x": 554.0,
+        "y": 558.0,
+        "id": 17,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 13,
+        "end": 14,
+        "token": "array",
+        "func": "",
+        "anchorX": 257.66666666666595,
+        "anchorY": 201.33333333333314,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 14,
+        "end": 15,
+        "token": "ARRAY_DIMENSION",
+        "func": "",
+        "anchorX": 334.99999999999994,
+        "anchorY": 300.6666666666667,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 15,
+        "end": 16,
+        "token": "of",
+        "func": "",
+        "anchorX": 415.66666666666674,
+        "anchorY": 408.3333333333332,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 16,
+        "end": 17,
+        "token": "TYPE",
+        "func": "",
+        "anchorX": 507.66666666666833,
+        "anchorY": 511.9999999999992,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 13
+  },
+  {
+    "name": "ARRAY_DIMENSION",
+    "nodes": [
+      {
+        "x": 68.0,
+        "y": 194.66666666666666,
+        "id": 18,
+        "isFinal": false
+      },
+      {
+        "x": 158.66666666666669,
+        "y": 196.66666666666669,
+        "id": 19,
+        "isFinal": false
+      },
+      {
+        "x": 390.6666666666667,
+        "y": 196.66666666666663,
+        "id": 20,
+        "isFinal": false
+      },
+      {
+        "x": 562.0,
+        "y": 196.00000000000003,
+        "id": 21,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 18,
+        "end": 19,
+        "token": "[",
+        "func": "",
+        "anchorX": 113.33333333333334,
+        "anchorY": 195.66666666666666,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 19,
+        "end": 20,
+        "token": "integer_constant",
+        "func": "",
+        "anchorX": 209.66666666666742,
+        "anchorY": 198.000000000002,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 20,
+        "end": 21,
+        "token": "]",
+        "func": "",
+        "anchorX": 466.99999999999955,
+        "anchorY": 195.66666666666157,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 20,
+        "end": 19,
+        "token": "comma",
+        "func": "",
+        "anchorX": 245.00000000000165,
+        "anchorY": 273.99999999999284,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 18
+  },
+  {
+    "name": "ASSIGNMENT",
+    "nodes": [
+      {
+        "x": 120.0,
+        "y": 198.66666666666669,
+        "id": 22,
+        "isFinal": false
+      },
+      {
+        "x": 183.33333333333331,
+        "y": 262.0,
+        "id": 23,
+        "isFinal": false
+      },
+      {
+        "x": 240.66666666666669,
+        "y": 301.3333333333333,
+        "id": 24,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 22,
+        "end": 23,
+        "token": ":\u003d",
+        "func": "",
+        "anchorX": 152.99999999999923,
+        "anchorY": 234.6666666666666,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 23,
+        "end": 24,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 217.333333333333,
+        "anchorY": 282.6666666666651,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 22
+  },
+  {
+    "name": "BULK_ASSIGNMENT",
+    "nodes": [
+      {
+        "x": 29.333333333333343,
+        "y": 144.0,
+        "id": 25,
+        "isFinal": false
+      },
+      {
+        "x": 158.66666666666669,
+        "y": 148.0,
+        "id": 26,
+        "isFinal": false
+      },
+      {
+        "x": 485.33333333333337,
+        "y": 112.66666666666663,
+        "id": 27,
+        "isFinal": true
+      },
+      {
+        "x": 294.6666666666667,
+        "y": 137.33333333333334,
+        "id": 28,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 25,
+        "end": 26,
+        "token": "(",
+        "func": "",
+        "anchorX": 94.00000000000003,
+        "anchorY": 146.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 26,
+        "end": 28,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 215.33333333333337,
+        "anchorY": 142.99999999999986,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 28,
+        "end": 26,
+        "token": "comma",
+        "func": "",
+        "anchorX": 212.66666666666669,
+        "anchorY": 94.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 28,
+        "end": 27,
+        "token": ")",
+        "func": "",
+        "anchorX": 355.3333333333332,
+        "anchorY": 131.66666666666748,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 25
+  },
+  {
+    "name": "FUNC_DEF",
+    "nodes": [
+      {
+        "x": 68.0,
+        "y": 182.66666666666669,
+        "id": 29,
+        "isFinal": false
+      },
+      {
+        "x": 129.33333333333337,
+        "y": 86.66666666666666,
+        "id": 30,
+        "isFinal": false
+      },
+      {
+        "x": 232.66666666666663,
+        "y": 40.66666666666667,
+        "id": 31,
+        "isFinal": false
+      },
+      {
+        "x": 344.0,
+        "y": 44.66666666666667,
+        "id": 32,
+        "isFinal": false
+      },
+      {
+        "x": 324.6666666666667,
+        "y": 255.33333333333331,
+        "id": 33,
+        "isFinal": false
+      },
+      {
+        "x": 331.3333333333333,
+        "y": 341.3333333333333,
+        "id": 34,
+        "isFinal": false
+      },
+      {
+        "x": 339.3333333333333,
+        "y": 425.3333333333333,
+        "id": 35,
+        "isFinal": false
+      },
+      {
+        "x": 412.66666666666663,
+        "y": 150.66666666666666,
+        "id": 36,
+        "isFinal": false
+      },
+      {
+        "x": 347.3333333333333,
+        "y": 490.0,
+        "id": 37,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 29,
+        "end": 30,
+        "token": "function",
+        "func": "",
+        "anchorX": 97.66666666666667,
+        "anchorY": 133.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 30,
+        "end": 31,
+        "token": "id",
+        "func": "",
+        "anchorX": 172.33333333333331,
+        "anchorY": 60.999999999999865,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 31,
+        "end": 32,
+        "token": "(",
+        "func": "",
+        "anchorX": 291.0,
+        "anchorY": 41.99999999999993,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 32,
+        "end": 33,
+        "token": ")",
+        "func": "",
+        "anchorX": 334.3333333333332,
+        "anchorY": 150.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 32,
+        "end": 36,
+        "token": "ARGUMENT",
+        "func": "",
+        "anchorX": 378.3333333333333,
+        "anchorY": 97.66666666666667,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 33,
+        "end": 34,
+        "token": ":",
+        "func": "",
+        "anchorX": 328.00000000000006,
+        "anchorY": 298.3333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 34,
+        "end": 35,
+        "token": "TYPE",
+        "func": "",
+        "anchorX": 335.3333333333333,
+        "anchorY": 383.3333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 35,
+        "end": 37,
+        "token": "BLOCK",
+        "func": "",
+        "anchorX": 343.3333333333333,
+        "anchorY": 457.66666666666663,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 36,
+        "end": 33,
+        "token": ")",
+        "func": "",
+        "anchorX": 368.66666666666663,
+        "anchorY": 202.99999999999991,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 29
+  },
+  {
+    "name": "PROC_DEF",
+    "nodes": [
+      {
+        "x": 45.33333333333334,
+        "y": 109.33333333333334,
+        "id": 38,
+        "isFinal": false
+      },
+      {
+        "x": 171.33333333333331,
+        "y": 64.66666666666667,
+        "id": 39,
+        "isFinal": false
+      },
+      {
+        "x": 274.6666666666667,
+        "y": 72.0,
+        "id": 40,
+        "isFinal": false
+      },
+      {
+        "x": 305.3333333333333,
+        "y": 174.0,
+        "id": 41,
+        "isFinal": false
+      },
+      {
+        "x": 326.6666666666667,
+        "y": 306.6666666666667,
+        "id": 42,
+        "isFinal": false
+      },
+      {
+        "x": 433.33333333333337,
+        "y": 221.33333333333331,
+        "id": 43,
+        "isFinal": false
+      },
+      {
+        "x": 346.0,
+        "y": 442.0,
+        "id": 44,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 38,
+        "end": 39,
+        "token": "procedure",
+        "func": "",
+        "anchorX": 108.33333333333334,
+        "anchorY": 87.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 39,
+        "end": 40,
+        "token": "id",
+        "func": "",
+        "anchorX": 223.0,
+        "anchorY": 68.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 40,
+        "end": 41,
+        "token": "(",
+        "func": "",
+        "anchorX": 290.0,
+        "anchorY": 123.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 41,
+        "end": 43,
+        "token": "ARGUMENT",
+        "func": "",
+        "anchorX": 369.3333333333333,
+        "anchorY": 197.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 41,
+        "end": 42,
+        "token": ")",
+        "func": "",
+        "anchorX": 315.99999999999983,
+        "anchorY": 240.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 42,
+        "end": 44,
+        "token": "BLOCK",
+        "func": "",
+        "anchorX": 336.33333333333337,
+        "anchorY": 374.33333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 43,
+        "end": 42,
+        "token": ")",
+        "func": "",
+        "anchorX": 380.0,
+        "anchorY": 264.0,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 38
+  },
+  {
+    "name": "ARGUMENT",
+    "nodes": [
+      {
+        "x": 15.999999999999972,
+        "y": 188.66666666666669,
+        "id": 45,
+        "isFinal": false
+      },
+      {
+        "x": 212.0,
+        "y": 194.0,
+        "id": 46,
+        "isFinal": true
+      },
+      {
+        "x": 357.3333333333333,
+        "y": 200.66666666666669,
+        "id": 47,
+        "isFinal": false
+      },
+      {
+        "x": 89.0,
+        "y": 267.3333333333333,
+        "id": 48,
+        "isFinal": false
+      },
+      {
+        "x": 145.66666666666669,
+        "y": 313.3333333333333,
+        "id": 49,
+        "isFinal": false
+      },
+      {
+        "x": 265.6666666666667,
+        "y": 63.33333333333333,
+        "id": 50,
+        "isFinal": false
+      },
+      {
+        "x": 343.0000000000001,
+        "y": 64.66666666666667,
+        "id": 51,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 45,
+        "end": 48,
+        "token": "id",
+        "func": "",
+        "anchorX": 60.83333333333303,
+        "anchorY": 237.66666666666654,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 46,
+        "end": 47,
+        "token": ";",
+        "func": "",
+        "anchorX": 284.6666666666667,
+        "anchorY": 197.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 47,
+        "end": 51,
+        "token": "id",
+        "func": "",
+        "anchorX": 357.4999999999991,
+        "anchorY": 135.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 48,
+        "end": 49,
+        "token": ":",
+        "func": "",
+        "anchorX": 117.33333333333334,
+        "anchorY": 290.3333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 49,
+        "end": 46,
+        "token": "VAR_DECL",
+        "func": "",
+        "anchorX": 178.83333333333334,
+        "anchorY": 253.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 50,
+        "end": 46,
+        "token": "VAR_DECL",
+        "func": "",
+        "anchorX": 238.83333333333334,
+        "anchorY": 128.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 51,
+        "end": 50,
+        "token": ":",
+        "func": "",
+        "anchorX": 292.9999999999989,
+        "anchorY": 64.33333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 45
+  },
+  {
+    "name": "BLOCK",
+    "nodes": [
+      {
+        "x": 87.33333333333334,
+        "y": 215.33333333333331,
+        "id": 52,
+        "isFinal": false
+      },
+      {
+        "x": 248.66666666666669,
+        "y": 123.33333333333334,
+        "id": 53,
+        "isFinal": true
+      },
+      {
+        "x": 50.66666666666666,
+        "y": 328.6666666666667,
+        "id": 54,
+        "isFinal": false
+      },
+      {
+        "x": 36.66666666666666,
+        "y": 70.0,
+        "id": 55,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 52,
+        "end": 53,
+        "token": "end",
+        "func": "",
+        "anchorX": 168.00000000000003,
+        "anchorY": 169.33333333333331,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 52,
+        "end": 55,
+        "token": "STMT",
+        "func": "",
+        "anchorX": 35.33333333333334,
+        "anchorY": 158.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 54,
+        "end": 52,
+        "token": "begin",
+        "func": "",
+        "anchorX": 69.0,
+        "anchorY": 272.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 55,
+        "end": 52,
+        "token": ";",
+        "func": "",
+        "anchorX": 113.33333333333334,
+        "anchorY": 127.33333333333331,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 54
+  },
+  {
+    "name": "STMT",
+    "nodes": [
+      {
+        "x": 210.33333333333331,
+        "y": 210.0,
+        "id": 56,
+        "isFinal": false
+      },
+      {
+        "x": 695.0,
+        "y": 194.66666666666666,
+        "id": 57,
+        "isFinal": true
+      },
+      {
+        "x": 385.0,
+        "y": 268.0,
+        "id": 58,
+        "isFinal": false
+      },
+      {
+        "x": 202.33333333333326,
+        "y": 363.33333333333337,
+        "id": 59,
+        "isFinal": false
+      },
+      {
+        "x": 800.3333333333333,
+        "y": 475.333333333333,
+        "id": 60,
+        "isFinal": false
+      },
+      {
+        "x": 608.3333333333334,
+        "y": 374.0,
+        "id": 61,
+        "isFinal": false
+      },
+      {
+        "x": 351.0,
+        "y": 483.9999999999999,
+        "id": 62,
+        "isFinal": false
+      },
+      {
+        "x": 491.66666666666663,
+        "y": 501.33333333333337,
+        "id": 63,
+        "isFinal": false
+      },
+      {
+        "x": 703.0,
+        "y": 346.6666666666667,
+        "id": 64,
+        "isFinal": false
+      },
+      {
+        "x": 396.33333333333337,
+        "y": 634.0,
+        "id": 65,
+        "isFinal": false
+      },
+      {
+        "x": 279.0,
+        "y": 607.3333333333334,
+        "id": 66,
+        "isFinal": false
+      },
+      {
+        "x": 153.0,
+        "y": 596.0,
+        "id": 67,
+        "isFinal": false
+      },
+      {
+        "x": 477.0,
+        "y": 384.3333333333333,
+        "id": 68,
+        "isFinal": false
+      },
+      {
+        "x": 489.66666666666663,
+        "y": 313.6666666666667,
+        "id": 69,
+        "isFinal": false
+      },
+      {
+        "x": 616.3333333333334,
+        "y": 281.6666666666667,
+        "id": 70,
+        "isFinal": false
+      },
+      {
+        "x": 949.6666666666667,
+        "y": 18.00000000000003,
+        "id": 71,
+        "isFinal": true
+      },
+      {
+        "x": 971.0,
+        "y": 97.33333333333331,
+        "id": 72,
+        "isFinal": false
+      },
+      {
+        "x": 751.0000000000001,
+        "y": 82.0,
+        "id": 73,
+        "isFinal": false
+      },
+      {
+        "x": 854.9999999999999,
+        "y": 130.0,
+        "id": 74,
+        "isFinal": false
+      },
+      {
+        "x": 856.3333333333333,
+        "y": 238.6666666666667,
+        "id": 75,
+        "isFinal": false
+      },
+      {
+        "x": 634.9999999999999,
+        "y": 44.66666666666666,
+        "id": 76,
+        "isFinal": true
+      },
+      {
+        "x": 963.6666666666667,
+        "y": 251.33333333333331,
+        "id": 77,
+        "isFinal": false
+      },
+      {
+        "x": 951.6666666666667,
+        "y": 391.3333333333333,
+        "id": 78,
+        "isFinal": true
+      },
+      {
+        "x": 1015.0,
+        "y": 168.66666666666666,
+        "id": 79,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 56,
+        "end": 58,
+        "token": "return",
+        "func": "",
+        "anchorX": 297.66666666666663,
+        "anchorY": 239.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "token": "LOOP",
+        "func": "",
+        "anchorX": 445.33333333333337,
+        "anchorY": 163.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 56,
+        "end": 57,
+        "token": "CONDITIONAL",
+        "func": "",
+        "anchorX": 452.66666666666663,
+        "anchorY": 202.33333333333334,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 56,
+        "end": 59,
+        "token": "(",
+        "func": "",
+        "anchorX": 204.33333333333255,
+        "anchorY": 290.6666666666657,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 56,
+        "end": 76,
+        "token": "id",
+        "func": "",
+        "anchorX": 422.99999999999943,
+        "anchorY": 126.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 58,
+        "end": 57,
+        "token": "id",
+        "func": "",
+        "anchorX": 552.0,
+        "anchorY": 259.99999999999994,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 58,
+        "end": 57,
+        "token": "integer_constant",
+        "func": "",
+        "anchorX": 540.0,
+        "anchorY": 231.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 59,
+        "end": 62,
+        "token": "id",
+        "func": "",
+        "anchorX": 276.66666666666663,
+        "anchorY": 423.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "token": "id",
+        "func": "",
+        "anchorX": 697.6666666666583,
+        "anchorY": 424.33333333333053,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 61,
+        "end": 60,
+        "token": "comma",
+        "func": "",
+        "anchorX": 714.3333333333406,
+        "anchorY": 389.6666666666644,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 61,
+        "end": 64,
+        "token": ")",
+        "func": "",
+        "anchorX": 655.6666666666667,
+        "anchorY": 360.3333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 61,
+        "end": 68,
+        "token": "[",
+        "func": "",
+        "anchorX": 542.6666666666667,
+        "anchorY": 379.1666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 62,
+        "end": 63,
+        "token": "comma",
+        "func": "",
+        "anchorX": 421.3333333333333,
+        "anchorY": 492.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 62,
+        "end": 65,
+        "token": "[",
+        "func": "",
+        "anchorX": 373.6666666666667,
+        "anchorY": 559.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 63,
+        "end": 61,
+        "token": "id",
+        "func": "",
+        "anchorX": 550.0,
+        "anchorY": 437.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 64,
+        "end": 57,
+        "token": "BULK_ASSIGNMENT",
+        "func": "",
+        "anchorX": 699.0,
+        "anchorY": 270.66666666666663,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 65,
+        "end": 66,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 337.66666666666663,
+        "anchorY": 620.6666666666664,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 66,
+        "end": 67,
+        "token": "comma",
+        "func": "",
+        "anchorX": 214.66666666666663,
+        "anchorY": 632.3333333333335,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 66,
+        "end": 62,
+        "token": "]",
+        "func": "",
+        "anchorX": 315.0,
+        "anchorY": 545.6666666666666,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 67,
+        "end": 66,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 213.33333333333331,
+        "anchorY": 568.9999999999997,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 68,
+        "end": 69,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 483.3333333333333,
+        "anchorY": 348.99999999999983,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 69,
+        "end": 70,
+        "token": "comma",
+        "func": "",
+        "anchorX": 534.6666666666657,
+        "anchorY": 282.3333333333332,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 69,
+        "end": 61,
+        "token": "]",
+        "func": "",
+        "anchorX": 549.0,
+        "anchorY": 343.83333333333337,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 70,
+        "end": 69,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 562.6666666666665,
+        "anchorY": 316.3333333333331,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 72,
+        "end": 79,
+        "token": "VAR_DECL",
+        "func": "",
+        "anchorX": 993.0,
+        "anchorY": 133.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 73,
+        "end": 74,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 818.3333333333351,
+        "anchorY": 97.33333333333334,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 74,
+        "end": 75,
+        "token": "comma",
+        "func": "",
+        "anchorX": 872.6666666666669,
+        "anchorY": 193.99999999999986,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 74,
+        "end": 77,
+        "token": "]",
+        "func": "",
+        "anchorX": 926.9999999999999,
+        "anchorY": 183.33333333333312,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 75,
+        "end": 74,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 812.6666666666673,
+        "anchorY": 181.9999999999995,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 76,
+        "end": 73,
+        "token": "[",
+        "func": "",
+        "anchorX": 700.3333333333325,
+        "anchorY": 72.6666666666664,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 76,
+        "end": 71,
+        "token": "FUNCTION_CALL",
+        "func": "",
+        "anchorX": 735.6666666666698,
+        "anchorY": 39.99999999999987,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 76,
+        "end": 78,
+        "token": "ASSIGNMENT",
+        "func": "",
+        "anchorX": 754.6666666666669,
+        "anchorY": 220.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 76,
+        "end": 72,
+        "token": ":",
+        "func": "",
+        "anchorX": 803.0,
+        "anchorY": 70.99999999999997,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 77,
+        "end": 78,
+        "token": "ASSIGNMENT",
+        "func": "",
+        "anchorX": 957.6666666666667,
+        "anchorY": 321.3333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 56
+  },
+  {
+    "name": "EXPR",
+    "nodes": [
+      {
+        "x": 89.33333333333334,
+        "y": 216.66666666666669,
+        "id": 80,
+        "isFinal": false
+      },
+      {
+        "x": 185.33333333333331,
+        "y": 207.33333333333334,
+        "id": 81,
+        "isFinal": false
+      },
+      {
+        "x": 341.99999999999994,
+        "y": 205.99999999999997,
+        "id": 82,
+        "isFinal": false
+      },
+      {
+        "x": 485.33333333333337,
+        "y": 209.99999999999994,
+        "id": 83,
+        "isFinal": true
+      },
+      {
+        "x": 722.3333333333334,
+        "y": 219.33333333333337,
+        "id": 84,
+        "isFinal": true
+      },
+      {
+        "x": 565.6666666666666,
+        "y": 110.66666666666666,
+        "id": 85,
+        "isFinal": false
+      },
+      {
+        "x": 681.6666666666666,
+        "y": 67.33333333333333,
+        "id": 86,
+        "isFinal": false
+      },
+      {
+        "x": 835.6666666666667,
+        "y": 19.33333333333333,
+        "id": 87,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 80,
+        "end": 81,
+        "token": "(",
+        "func": "",
+        "anchorX": 130.66666666666669,
+        "anchorY": 213.66666666666615,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 80,
+        "end": 83,
+        "token": "CONSTANT",
+        "func": "",
+        "anchorX": 219.6666666666673,
+        "anchorY": 164.3333333333331,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 80,
+        "end": 83,
+        "token": "id",
+        "func": "",
+        "anchorX": 292.66666666666674,
+        "anchorY": 308.66666666666663,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 81,
+        "end": 82,
+        "token": "EXPR_OR_L",
+        "func": "",
+        "anchorX": 226.99999999999895,
+        "anchorY": 206.66666666666686,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "token": ")",
+        "func": "",
+        "anchorX": 384.0000000000003,
+        "anchorY": 206.66666666666532,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 83,
+        "end": 84,
+        "token": "FUNCTION_CALL",
+        "func": "",
+        "anchorX": 552.8333333333312,
+        "anchorY": 212.3333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 83,
+        "end": 85,
+        "token": "[",
+        "func": "",
+        "anchorX": 532.8333333333321,
+        "anchorY": 163.33333333333283,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 85,
+        "end": 86,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 581.6666666666669,
+        "anchorY": 69.33333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 86,
+        "end": 87,
+        "token": "comma",
+        "func": "",
+        "anchorX": 776.6666666666666,
+        "anchorY": 85.99999999999999,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 86,
+        "end": 84,
+        "token": "]",
+        "func": "",
+        "anchorX": 701.9999999999997,
+        "anchorY": 143.33333333333331,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 87,
+        "end": 86,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 733.3333333333335,
+        "anchorY": 29.333333333333314,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 80
+  },
+  {
+    "name": "FUNCTION_CALL",
+    "nodes": [
+      {
+        "x": 111.33333333333334,
+        "y": 254.0,
+        "id": 88,
+        "isFinal": false
+      },
+      {
+        "x": 206.0,
+        "y": 260.0,
+        "id": 89,
+        "isFinal": false
+      },
+      {
+        "x": 298.6666666666667,
+        "y": 263.3333333333333,
+        "id": 90,
+        "isFinal": true
+      },
+      {
+        "x": 236.0,
+        "y": 178.0,
+        "id": 91,
+        "isFinal": false
+      },
+      {
+        "x": 292.0,
+        "y": 91.33333333333334,
+        "id": 92,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 88,
+        "end": 89,
+        "token": "(",
+        "func": "",
+        "anchorX": 158.66666666666669,
+        "anchorY": 257.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 89,
+        "end": 90,
+        "token": ")",
+        "func": "",
+        "anchorX": 252.33333333333334,
+        "anchorY": 261.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 89,
+        "end": 91,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 157.66666666666663,
+        "anchorY": 211.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 91,
+        "end": 92,
+        "token": "comma",
+        "func": "",
+        "anchorX": 196.0,
+        "anchorY": 121.99999999999993,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 91,
+        "end": 90,
+        "token": ")",
+        "func": "",
+        "anchorX": 300.66666666666646,
+        "anchorY": 219.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 92,
+        "end": 91,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 326.0,
+        "anchorY": 158.66666666666669,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 88
+  },
+  {
+    "name": "CONSTANT",
+    "nodes": [
+      {
+        "x": 86.0,
+        "y": 300.6666666666667,
+        "id": 93,
+        "isFinal": false
+      },
+      {
+        "x": 612.6666666666667,
+        "y": 311.3333333333333,
+        "id": 94,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 93,
+        "end": 94,
+        "token": "string_constant",
+        "func": "",
+        "anchorX": 370.66666666666674,
+        "anchorY": 82.00000000000006,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "token": "char_constant",
+        "func": "",
+        "anchorX": 372.66666666666674,
+        "anchorY": 153.3333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "token": "real_constant",
+        "func": "",
+        "anchorX": 344.66666666666674,
+        "anchorY": 244.66666666666674,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "token": "integer_constant",
+        "func": "",
+        "anchorX": 341.33333333333337,
+        "anchorY": 456.00000000000006,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 93,
+        "end": 94,
+        "token": "boolean_constant",
+        "func": "",
+        "anchorX": 349.33333333333337,
+        "anchorY": 306.00000000000006,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 93
+  },
+  {
+    "name": "LOOP",
+    "nodes": [
+      {
+        "x": 33.333333333333314,
+        "y": 52.0,
+        "id": 95,
+        "isFinal": false
+      },
+      {
+        "x": 158.00000000000006,
+        "y": 54.000000000000014,
+        "id": 96,
+        "isFinal": false
+      },
+      {
+        "x": 222.66666666666669,
+        "y": 50.0,
+        "id": 97,
+        "isFinal": false
+      },
+      {
+        "x": 280.6666666666667,
+        "y": 124.0,
+        "id": 98,
+        "isFinal": false
+      },
+      {
+        "x": 297.3333333333333,
+        "y": 256.0,
+        "id": 99,
+        "isFinal": false
+      },
+      {
+        "x": 428.66666666666663,
+        "y": 260.0,
+        "id": 100,
+        "isFinal": false
+      },
+      {
+        "x": 422.66666666666674,
+        "y": 426.6666666666667,
+        "id": 101,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 95,
+        "end": 96,
+        "token": "while",
+        "func": "",
+        "anchorX": 81.33333333333317,
+        "anchorY": 60.999999999999005,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 96,
+        "end": 97,
+        "token": "(",
+        "func": "",
+        "anchorX": 191.66666666666706,
+        "anchorY": 37.66666666666663,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 97,
+        "end": 98,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 251.66666666666669,
+        "anchorY": 87.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 98,
+        "end": 99,
+        "token": ")",
+        "func": "",
+        "anchorX": 289.0,
+        "anchorY": 190.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 99,
+        "end": 100,
+        "token": "do",
+        "func": "",
+        "anchorX": 362.99999999999983,
+        "anchorY": 258.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 100,
+        "end": 101,
+        "token": "BLOCK",
+        "func": "",
+        "anchorX": 425.99999999999966,
+        "anchorY": 343.66666666666634,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 95
+  },
+  {
+    "name": "CONDITIONAL",
+    "nodes": [
+      {
+        "x": 64.0,
+        "y": 96.66666666666666,
+        "id": 102,
+        "isFinal": false
+      },
+      {
+        "x": 72.66666666666666,
+        "y": 200.0,
+        "id": 103,
+        "isFinal": false
+      },
+      {
+        "x": 70.66666666666666,
+        "y": 312.0,
+        "id": 104,
+        "isFinal": false
+      },
+      {
+        "x": 71.33333333333334,
+        "y": 392.6666666666667,
+        "id": 105,
+        "isFinal": false
+      },
+      {
+        "x": 176.66666666666669,
+        "y": 396.0,
+        "id": 106,
+        "isFinal": false
+      },
+      {
+        "x": 176.0,
+        "y": 293.3333333333333,
+        "id": 107,
+        "isFinal": false
+      },
+      {
+        "x": 182.0,
+        "y": 192.0,
+        "id": 108,
+        "isFinal": true
+      },
+      {
+        "x": 183.33333333333331,
+        "y": 95.33333333333334,
+        "id": 109,
+        "isFinal": false
+      },
+      {
+        "x": 308.3333333333333,
+        "y": 98.66666666666666,
+        "id": 110,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 102,
+        "end": 103,
+        "token": "if",
+        "func": "",
+        "anchorX": 68.33333333333333,
+        "anchorY": 148.33333333333331,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 103,
+        "end": 104,
+        "token": "(",
+        "func": "",
+        "anchorX": 71.66666666666666,
+        "anchorY": 256.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 104,
+        "end": 105,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 71.0,
+        "anchorY": 352.3333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 105,
+        "end": 106,
+        "token": ")",
+        "func": "",
+        "anchorX": 124.00000000000003,
+        "anchorY": 394.33333333333337,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 106,
+        "end": 107,
+        "token": "then",
+        "func": "",
+        "anchorX": 176.33333333333334,
+        "anchorY": 344.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 107,
+        "end": 108,
+        "token": "BLOCK",
+        "func": "",
+        "anchorX": 179.0,
+        "anchorY": 242.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 108,
+        "end": 109,
+        "token": "else",
+        "func": "",
+        "anchorX": 182.66666666666666,
+        "anchorY": 143.6666666666666,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 109,
+        "end": 110,
+        "token": "BLOCK",
+        "func": "",
+        "anchorX": 223.16666666666634,
+        "anchorY": 95.66666666666669,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 102
+  },
+  {
+    "name": "VAR_DECL",
+    "nodes": [
+      {
+        "x": 263.0,
+        "y": 336.6666666666667,
+        "id": 111,
+        "isFinal": false
+      },
+      {
+        "x": 649.6666666666666,
+        "y": 320.6666666666667,
+        "id": 112,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 111,
+        "end": 112,
+        "token": "SIMPLE_VAR",
+        "func": "",
+        "anchorX": 433.6666666666667,
+        "anchorY": 238.66666666666663,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 111,
+        "end": 112,
+        "token": "ARRAY_VAR",
+        "func": "",
+        "anchorX": 456.3333333333333,
+        "anchorY": 328.6666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 111
+  },
+  {
+    "name": "TYPE",
+    "nodes": [
+      {
+        "x": 103.66666666666669,
+        "y": 274.0,
+        "id": 113,
+        "isFinal": false
+      },
+      {
+        "x": 589.0,
+        "y": 303.3333333333333,
+        "id": 114,
+        "isFinal": true
+      }
+    ],
+    "edges": [
+      {
+        "start": 113,
+        "end": 114,
+        "token": "integer",
+        "func": "",
+        "anchorX": 350.00000000000045,
+        "anchorY": 137.6666666666661,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 113,
+        "end": 114,
+        "token": "real",
+        "func": "",
+        "anchorX": 341.99999999999983,
+        "anchorY": 228.3333333333332,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 113,
+        "end": 114,
+        "token": "char",
+        "func": "",
+        "anchorX": 350.33333333333337,
+        "anchorY": 373.3333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 113,
+        "end": 114,
+        "token": "boolean",
+        "func": "",
+        "anchorX": 342.33333333333337,
+        "anchorY": 447.3333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 113,
+        "end": 114,
+        "token": "string",
+        "func": "",
+        "anchorX": 349.66666666666663,
+        "anchorY": 330.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 113
+  },
+  {
+    "name": "EXPR_UNARY",
+    "nodes": [
+      {
+        "x": 242.33333333333331,
+        "y": 232.66666666666669,
+        "id": 115,
+        "isFinal": false
+      },
+      {
+        "x": 412.33333333333337,
+        "y": 235.33333333333331,
+        "id": 116,
+        "isFinal": false
+      },
+      {
+        "x": 577.0,
+        "y": 230.0,
+        "id": 117,
+        "isFinal": true
+      },
+      {
+        "x": 409.0,
+        "y": 158.0,
+        "id": 118,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 115,
+        "end": 116,
+        "token": "-",
+        "func": "",
+        "anchorX": 319.6666666666658,
+        "anchorY": 232.33333333333314,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 115,
+        "end": 117,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 419.66666666666663,
+        "anchorY": 351.33333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 115,
+        "end": 118,
+        "token": "~",
+        "func": "",
+        "anchorX": 325.66666666666663,
+        "anchorY": 195.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 116,
+        "end": 117,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 459.66666666666646,
+        "anchorY": 233.66666666666634,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 118,
+        "end": 117,
+        "token": "EXPR",
+        "func": "",
+        "anchorX": 493.0,
+        "anchorY": 194.0,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 115
+  },
+  {
+    "name": "EXPR_MULT",
+    "nodes": [
+      {
+        "x": 229.66666666666669,
+        "y": 240.0,
+        "id": 119,
+        "isFinal": false
+      },
+      {
+        "x": 417.0,
+        "y": 238.0,
+        "id": 120,
+        "isFinal": true
+      },
+      {
+        "x": 533.6666666666666,
+        "y": 82.00000000000003,
+        "id": 121,
+        "isFinal": false
+      },
+      {
+        "x": 530.3333333333334,
+        "y": 383.3333333333333,
+        "id": 122,
+        "isFinal": false
+      },
+      {
+        "x": 607.0,
+        "y": 238.0,
+        "id": 123,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 119,
+        "end": 120,
+        "token": "EXPR_UNARY",
+        "func": "",
+        "anchorX": 323.33333333333337,
+        "anchorY": 239.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 120,
+        "end": 121,
+        "token": "*",
+        "func": "",
+        "anchorX": 443.666666666666,
+        "anchorY": 146.99999999999963,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 120,
+        "end": 123,
+        "token": "/",
+        "func": "",
+        "anchorX": 513.3333333333334,
+        "anchorY": 218.66666666666669,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 120,
+        "end": 122,
+        "token": "%",
+        "func": "",
+        "anchorX": 496.99999999999994,
+        "anchorY": 305.33333333333337,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 121,
+        "end": 120,
+        "token": "EXPR_UNARY",
+        "func": "",
+        "anchorX": 503.3333333333333,
+        "anchorY": 176.66666666666669,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 122,
+        "end": 120,
+        "token": "EXPR_UNARY",
+        "func": "",
+        "anchorX": 459.00000000000006,
+        "anchorY": 327.33333333333326,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 123,
+        "end": 120,
+        "token": "EXPR_UNARY",
+        "func": "",
+        "anchorX": 512.0,
+        "anchorY": 262.0,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 119
+  },
+  {
+    "name": "EXPR_ADD",
+    "nodes": [
+      {
+        "x": 242.33333333333331,
+        "y": 212.66666666666669,
+        "id": 124,
+        "isFinal": false
+      },
+      {
+        "x": 409.0,
+        "y": 216.0,
+        "id": 125,
+        "isFinal": true
+      },
+      {
+        "x": 577.6666666666666,
+        "y": 90.66666666666666,
+        "id": 126,
+        "isFinal": false
+      },
+      {
+        "x": 557.0,
+        "y": 337.3333333333333,
+        "id": 127,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 124,
+        "end": 125,
+        "token": "EXPR_MULT",
+        "func": "",
+        "anchorX": 325.66666666666663,
+        "anchorY": 214.33333333333334,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 125,
+        "end": 126,
+        "token": "+",
+        "func": "",
+        "anchorX": 528.0,
+        "anchorY": 177.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 125,
+        "end": 127,
+        "token": "-",
+        "func": "",
+        "anchorX": 469.0,
+        "anchorY": 306.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 126,
+        "end": 125,
+        "token": "EXPR_MULT",
+        "func": "",
+        "anchorX": 456.00000000000006,
+        "anchorY": 116.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 127,
+        "end": 125,
+        "token": "EXPR_MULT",
+        "func": "",
+        "anchorX": 499.66666666666663,
+        "anchorY": 247.33333333333331,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 124
+  },
+  {
+    "name": "EXPR_COMPARE",
+    "nodes": [
+      {
+        "x": 244.33333333333331,
+        "y": 230.66666666666669,
+        "id": 128,
+        "isFinal": false
+      },
+      {
+        "x": 424.33333333333337,
+        "y": 230.0,
+        "id": 129,
+        "isFinal": true
+      },
+      {
+        "x": 510.33333333333337,
+        "y": 42.0,
+        "id": 130,
+        "isFinal": false
+      },
+      {
+        "x": 607.0,
+        "y": 158.66666666666666,
+        "id": 131,
+        "isFinal": false
+      },
+      {
+        "x": 603.6666666666666,
+        "y": 306.0,
+        "id": 132,
+        "isFinal": false
+      },
+      {
+        "x": 514.3333333333334,
+        "y": 421.3333333333333,
+        "id": 133,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 128,
+        "end": 129,
+        "token": "EXPR_ADD",
+        "func": "",
+        "anchorX": 334.33333333333337,
+        "anchorY": 230.33333333333334,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 129,
+        "end": 130,
+        "token": "\u003c\u003d",
+        "func": "",
+        "anchorX": 487.33333333333337,
+        "anchorY": 141.33333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 129,
+        "end": 131,
+        "token": "\u003c",
+        "func": "",
+        "anchorX": 537.0,
+        "anchorY": 212.3333333333334,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 129,
+        "end": 132,
+        "token": "\u003e\u003d",
+        "func": "",
+        "anchorX": 526.0,
+        "anchorY": 296.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 129,
+        "end": 133,
+        "token": "EXPR_ADD",
+        "func": "",
+        "anchorX": 488.66666666666674,
+        "anchorY": 314.33333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 130,
+        "end": 129,
+        "token": "EXPR_ADD",
+        "func": "",
+        "anchorX": 426.0000000000001,
+        "anchorY": 130.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 131,
+        "end": 129,
+        "token": "EXPR_ADD",
+        "func": "",
+        "anchorX": 514.3333333333327,
+        "anchorY": 160.33333333333331,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 132,
+        "end": 129,
+        "token": "EXPR_ADD",
+        "func": "",
+        "anchorX": 529.9999999999999,
+        "anchorY": 243.33333333333331,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 133,
+        "end": 129,
+        "token": "\u003e",
+        "func": "",
+        "anchorX": 434.66666666666663,
+        "anchorY": 336.99999999999994,
+        "isGraph": false,
+        "isGlobal": false
+      }
+    ],
+    "start": 128
+  },
+  {
+    "name": "EXPR_EQ",
+    "nodes": [
+      {
+        "x": 182.33333333333331,
+        "y": 249.33333333333331,
+        "id": 134,
+        "isFinal": false
+      },
+      {
+        "x": 393.66666666666663,
+        "y": 254.0,
+        "id": 135,
+        "isFinal": true
+      },
+      {
+        "x": 577.6666666666666,
+        "y": 105.33333333333334,
+        "id": 136,
+        "isFinal": false
+      },
+      {
+        "x": 569.0,
+        "y": 385.3333333333333,
+        "id": 137,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 134,
+        "end": 135,
+        "token": "EXPR_COMPARE",
+        "func": "",
+        "anchorX": 288.0,
+        "anchorY": 251.66666666666666,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 135,
+        "end": 136,
+        "token": "\u003c\u003e",
+        "func": "",
+        "anchorX": 512.3333333333333,
+        "anchorY": 200.3333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 135,
+        "end": 137,
+        "token": "\u003d",
+        "func": "",
+        "anchorX": 509.3333333333333,
+        "anchorY": 295.00000000000006,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 136,
+        "end": 135,
+        "token": "EXPR_COMPARE",
+        "func": "",
+        "anchorX": 455.66666666666663,
+        "anchorY": 132.33333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 137,
+        "end": 135,
+        "token": "EXPR_COMPARE",
+        "func": "",
+        "anchorX": 461.99999999999994,
+        "anchorY": 362.9999999999999,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 134
+  },
+  {
+    "name": "EXPR_AND_B",
+    "nodes": [
+      {
+        "x": 250.33333333333331,
+        "y": 256.6666666666667,
+        "id": 138,
+        "isFinal": false
+      },
+      {
+        "x": 385.0,
+        "y": 270.6666666666667,
+        "id": 139,
+        "isFinal": true
+      },
+      {
+        "x": 538.3333333333334,
+        "y": 286.0,
+        "id": 140,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 138,
+        "end": 139,
+        "token": "EXPR_EQ",
+        "func": "",
+        "anchorX": 317.66666666666663,
+        "anchorY": 263.66666666666663,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 139,
+        "end": 140,
+        "token": "\u0026",
+        "func": "",
+        "anchorX": 460.99999999999994,
+        "anchorY": 314.33333333333337,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 140,
+        "end": 139,
+        "token": "EXPR_EQ",
+        "func": "",
+        "anchorX": 461.6666666666667,
+        "anchorY": 249.66666666666669,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 138
+  },
+  {
+    "name": "EXPR_XOR_B",
+    "nodes": [
+      {
+        "x": 191.66666666666669,
+        "y": 320.6666666666667,
+        "id": 141,
+        "isFinal": false
+      },
+      {
+        "x": 360.33333333333337,
+        "y": 332.0,
+        "id": 142,
+        "isFinal": true
+      },
+      {
+        "x": 565.0,
+        "y": 341.3333333333333,
+        "id": 143,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 141,
+        "end": 142,
+        "token": "EXPR_AND_B",
+        "func": "",
+        "anchorX": 276.0,
+        "anchorY": 326.33333333333337,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 142,
+        "end": 143,
+        "token": "^",
+        "func": "",
+        "anchorX": 461.99999999999994,
+        "anchorY": 388.6666666666667,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 143,
+        "end": 142,
+        "token": "EXPR_AND_B",
+        "func": "",
+        "anchorX": 462.6666666666667,
+        "anchorY": 308.66666666666663,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 141
+  },
+  {
+    "name": "EXPR_OR_B",
+    "nodes": [
+      {
+        "x": 169.0,
+        "y": 351.3333333333333,
+        "id": 144,
+        "isFinal": false
+      },
+      {
+        "x": 348.9999999999999,
+        "y": 358.6666666666667,
+        "id": 145,
+        "isFinal": true
+      },
+      {
+        "x": 495.0,
+        "y": 366.6666666666667,
+        "id": 146,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 144,
+        "end": 145,
+        "token": "EXPR_XOR_B",
+        "func": "",
+        "anchorX": 233.9999999999999,
+        "anchorY": 355.9999999999996,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 145,
+        "end": 146,
+        "token": "|",
+        "func": "",
+        "anchorX": 408.66666666666515,
+        "anchorY": 397.3333333333333,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 146,
+        "end": 145,
+        "token": "EXPR_XOR_B",
+        "func": "",
+        "anchorX": 404.66666666666526,
+        "anchorY": 331.99999999999994,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 144
+  },
+  {
+    "name": "EXPR_AND_L",
+    "nodes": [
+      {
+        "x": 125.0,
+        "y": 362.0,
+        "id": 147,
+        "isFinal": false
+      },
+      {
+        "x": 356.33333333333337,
+        "y": 354.0,
+        "id": 148,
+        "isFinal": true
+      },
+      {
+        "x": 579.0,
+        "y": 366.0,
+        "id": 149,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 147,
+        "end": 148,
+        "token": "EXPR_OR_B",
+        "func": "",
+        "anchorX": 240.66666666666669,
+        "anchorY": 358.0,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 148,
+        "end": 149,
+        "token": "and",
+        "func": "",
+        "anchorX": 466.3333333333333,
+        "anchorY": 404.0,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 149,
+        "end": 148,
+        "token": "EXPR_OR_B",
+        "func": "",
+        "anchorX": 466.99999999999994,
+        "anchorY": 330.6666666666667,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 147
+  },
+  {
+    "name": "EXPR_OR_L",
+    "nodes": [
+      {
+        "x": 165.0,
+        "y": 380.0,
+        "id": 150,
+        "isFinal": false
+      },
+      {
+        "x": 365.66666666666663,
+        "y": 386.6666666666667,
+        "id": 151,
+        "isFinal": true
+      },
+      {
+        "x": 555.0,
+        "y": 387.3333333333333,
+        "id": 152,
+        "isFinal": false
+      }
+    ],
+    "edges": [
+      {
+        "start": 150,
+        "end": 151,
+        "token": "EXPR_AND_L",
+        "func": "",
+        "anchorX": 265.3333333333333,
+        "anchorY": 383.3333333333333,
+        "isGraph": true,
+        "isGlobal": false
+      },
+      {
+        "start": 151,
+        "end": 152,
+        "token": "or",
+        "func": "",
+        "anchorX": 460.3333333333333,
+        "anchorY": 419.6666666666668,
+        "isGraph": false,
+        "isGlobal": false
+      },
+      {
+        "start": 152,
+        "end": 151,
+        "token": "EXPR_AND_L",
+        "func": "",
+        "anchorX": 460.3333333333333,
+        "anchorY": 360.99999999999994,
+        "isGraph": true,
+        "isGlobal": false
+      }
+    ],
+    "start": 150
+  }
+]
