@@ -1,0 +1,14 @@
+#lang scheme
+
+(define (soodi lst)
+  (cond
+    [(null? lst) #t]
+    [(null? (cdr lst)) #t]
+    [else (and (soodi (cdr lst)) (< (car lst) (cadr lst)))]
+    )
+  )
+
+(soodi '())
+(soodi '(5))
+
+(soodi '(25 10 25 20))

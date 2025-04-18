@@ -1,0 +1,10 @@
+#lang scheme
+(define (main lst)
+    (cond
+      [(null? lst) lst]
+      [(list? (car lst)) (append (main (cdr lst)) (list (main (car lst))))]
+      [else (append (main (cdr lst)) (list (car lst)))]
+      ))
+
+
+(main '(() 1 2 3 (4 5) () 7 (8 9) 80))

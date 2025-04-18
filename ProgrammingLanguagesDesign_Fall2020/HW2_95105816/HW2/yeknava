@@ -1,0 +1,33 @@
+#lang scheme
+(define (inc lst)
+  (cond
+    [(null? lst) #t]
+    [(null? (cdr lst)) #t]
+    [else (and (inc (cdr lst)) (< (car lst) (cadr lst)))]
+    )
+  )
+
+(define (dec lst)
+  (cond
+    [(null? lst) #t]
+    [(null? (cdr lst)) #t]
+    [else (and (dec (cdr lst)) (> (car lst) (cadr lst)))]
+    )
+  )
+
+(define (main lst)
+  (cond
+    [(inc lst) (display "inc")]
+    [(dec lst) (display "dec")]
+    [else (display "none")]
+    )
+  )
+
+;; (inc '())
+;; (inc '(5))
+
+(main '(250 100 -15 -90))
+(display "\t")
+(main '(25 100 1594 9076576.7))
+(display "\t")
+(main '(5675 786 6456 88 8767 1 -77 4563))

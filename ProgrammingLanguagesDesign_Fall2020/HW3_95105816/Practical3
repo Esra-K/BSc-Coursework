@@ -1,0 +1,49 @@
+#lang scheme
+
+; Question 1.20
+(define (count-occurence lst a)
+  (cond
+    [(null? lst) 0]
+    [(not (list? (car lst))) (cond
+                         [(eq? (car lst) a) (+ 1 (count-occurence (cdr lst) a))]
+                         [else (count-occurence (cdr lst) a)]
+                          )]
+    [else (+ (count-occurence (car lst) a) (count-occurence (cdr lst) a))]
+   )
+  )
+
+
+(count-occurence '(1 2 (3 4) 4 (4 (6 (0 4 4) (4)))) 4)
+
+; Question 1.30
+(define (min l)
+  (cond 
+    ((null? (cdr l)) (car l)) 
+    ((< (car l) (min (cdr l))) (car l)) 
+    (else (min (cdr l)))))
+
+(define (reverse lst)
+  (cond
+    [(null? lst) '()]
+    [else (append (reverse (cdr lst)) (list (car lst)))]))
+
+(define (sort lst)
+  (cond
+    [(null? lst) '()]
+    [else (cons (min lst) (sort (remove (min lst) lst)))]
+  ))
+
+(define (sort/predicate operand lst)
+  (if (eq? (quote operand) '<) (sort lst) (reverse (sort lst))))
+
+(sort/predicate > '(2 6 2 6 2 1 5 0 -3 -12 5 8 -0.4 2 7))
+
+#|
+(reverse '(798 324 12 45 0990 34))
+
+(eq? (quote <) '>)
+
+(remove 4 '(1 2 4 5 3 4))
+
+(sort '(3 6 8 4 6 5 5 6 2 4 3))
+|#

@@ -1,0 +1,10 @@
+#lang scheme
+
+(define (nested-reverse lst)
+    (cond ((null? lst) lst)
+          ((list? (car lst))
+                  (append (nested-reverse (cdr lst)) (list (nested-reverse (car lst)))))
+        (else (append (nested-reverse (cdr lst)) (list (car lst))))))
+
+
+(nested-reverse '(1 2 3 (4 5) ()))

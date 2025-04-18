@@ -1,0 +1,22 @@
+#lang scheme
+
+(define (add lst n)
+   (map (lambda (x) (+ x n)) lst))
+
+(add '(1 2 30 -4 5) 8)
+
+(define (add-all lst)
+  (cond
+    [(null? lst) 0]
+    [(null? (cdr lst)) (car lst)]
+    [else (+ (car lst) (add-all (cdr lst)))]
+    )
+  )
+
+(add-all '(5 -5 4 -10 7 1 0.5))
+
+(define (custom-add lst n)
+  (format "~a ~b" (add lst n) n))
+
+(custom-add '(1 2 30 -4 5) 7)
+  

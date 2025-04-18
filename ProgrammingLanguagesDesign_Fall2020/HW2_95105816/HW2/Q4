@@ -1,0 +1,35 @@
+#lang racket
+
+(define (readInput filename)
+  (with-input-from-file filename
+    (lambda ()
+      (for/list ([line (in-lines)])
+        (eval (read (open-input-string line)))
+        )
+      )
+    )
+  )
+
+(define (printOneLine ln)
+   (begin
+     (write (car ln))
+     (newline)
+     (if (not(null? (cdr ln)))
+         (printOneLine (cdr ln))
+         (newline)
+         )
+     )
+  )
+
+(define (writeOutput filename s)
+  (with-output-to-file filename #:exists 'replace
+      (lambda ()
+        (printOneLine s)
+        )
+    )
+  )
+
+(define (main inputFile outputFile)
+  (writeOutput outputFile (readInput inputFile)))
+
+(main "palindrome.txt" "output.txt")
