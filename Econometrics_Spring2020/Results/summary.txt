@@ -1,0 +1,364 @@
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Min.   : -Inf  
+1st Qu.:12.69  
+Median :13.46  
+Mean   : -Inf  
+3rd Qu.:14.56  
+Max.   :18.47  
+NA
+Min.   :16.00  
+1st Qu.:22.00  
+Median :25.00  
+Mean   :25.28  
+3rd Qu.:29.00  
+Max.   :42.00  
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Min.   :  -Inf  
+1st Qu.: 6.908  
+Median : 8.006  
+Mean   :  -Inf  
+3rd Qu.: 8.987  
+Max.   :13.245  
+NA
+Min.   : 9.473  
+1st Qu.:13.241  
+Median :13.998  
+Mean   :14.215  
+3rd Qu.:15.124  
+Max.   :19.093  
+NA's   :1298  
+Min.   :48.00  
+1st Qu.:62.00  
+Median :66.00  
+Mean   :66.24  
+3rd Qu.:71.00  
+Max.   :94.00  
+NA
+Min.   :49.00  
+1st Qu.:67.00  
+Median :71.00  
+Mean   :71.55  
+3rd Qu.:75.00  
+Max.   :95.00  
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Min.   :1.000  
+1st Qu.:1.000  
+Median :1.000  
+Mean   :1.103  
+3rd Qu.:1.000  
+Max.   :5.000  
+NA
+Min.   :1.000  
+1st Qu.:3.000  
+Median :3.000  
+Mean   :2.944  
+3rd Qu.:3.000  
+Max.   :5.000  
+NA
+Min.   :1.000  
+1st Qu.:2.000  
+Median :2.000  
+Mean   :2.368  
+3rd Qu.:3.000  
+Max.   :5.000  
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Length:18278      
+Class :character  
+Mode  :character  
+NA
+NA
+NA
+NA
+Min.   :2019  
+1st Qu.:2020  
+Median :2021  
+Mean   :2021  
+3rd Qu.:2022  
+Max.   :2026  
+NA's   :240  
+Min.   : 5.00  
+1st Qu.:38.00  
+Median :54.00  
+Mean   :49.72  
+3rd Qu.:64.00  
+Max.   :93.00  
+NA
+Min.   : 2.00  
+1st Qu.:30.00  
+Median :49.00  
+Mean   :45.59  
+3rd Qu.:62.00  
+Max.   :95.00  
+NA
+Min.   : 5.00  
+1st Qu.:44.00  
+Median :56.00  
+Mean   :52.22  
+3rd Qu.:64.00  
+Max.   :93.00  
+NA
+Min.   : 7.00  
+1st Qu.:54.00  
+Median :62.00  
+Mean   :58.75  
+3rd Qu.:68.00  
+Max.   :92.00  
+NA
+Min.   : 3.00  
+1st Qu.:30.00  
+Median :44.00  
+Mean   :42.81  
+3rd Qu.:56.00  
+Max.   :90.00  
+NA
+Min.   : 4.0  
+1st Qu.:50.0  
+Median :61.0  
+Mean   :55.6  
+3rd Qu.:68.0  
+Max.   :97.0  
+NA
+Min.   : 6.00  
+1st Qu.:34.00  
+Median :49.00  
+Mean   :47.33  
+3rd Qu.:62.00  
+Max.   :94.00  
+NA
+Min.   : 4.00  
+1st Qu.:31.00  
+Median :41.00  
+Mean   :42.71  
+3rd Qu.:56.00  
+Max.   :94.00  
+NA
+Min.   : 8.00  
+1st Qu.:43.00  
+Median :56.00  
+Mean   :52.77  
+3rd Qu.:64.00  
+Max.   :92.00  
+NA
+Min.   : 5.00  
+1st Qu.:54.00  
+Median :63.00  
+Mean   :58.46  
+3rd Qu.:69.00  
+Max.   :96.00  
+NA
+Min.   :12.0  
+1st Qu.:56.0  
+Median :67.0  
+Mean   :64.3  
+3rd Qu.:75.0  
+Max.   :97.0  
+NA
+Min.   :11.00  
+1st Qu.:57.00  
+Median :67.00  
+Mean   :64.42  
+3rd Qu.:75.00  
+Max.   :96.00  
+NA
+Min.   :11.0  
+1st Qu.:55.0  
+Median :66.0  
+Mean   :63.5  
+3rd Qu.:74.0  
+Max.   :96.0  
+NA
+Min.   :21.00  
+1st Qu.:56.00  
+Median :62.00  
+Mean   :61.75  
+3rd Qu.:68.00  
+Max.   :96.00  
+NA
+Min.   :12.00  
+1st Qu.:56.00  
+Median :66.00  
+Mean   :63.86  
+3rd Qu.:74.00  
+Max.   :97.00  
+NA
+Min.   :14.00  
+1st Qu.:48.00  
+Median :59.00  
+Mean   :58.18  
+3rd Qu.:68.00  
+Max.   :95.00  
+NA
+Min.   :19.00  
+1st Qu.:58.00  
+Median :66.00  
+Mean   :64.93  
+3rd Qu.:73.00  
+Max.   :95.00  
+NA
+Min.   :12.00  
+1st Qu.:56.00  
+Median :66.00  
+Mean   :62.89  
+3rd Qu.:74.00  
+Max.   :97.00  
+NA
+Min.   :20.00  
+1st Qu.:58.00  
+Median :66.00  
+Mean   :65.23  
+3rd Qu.:74.00  
+Max.   :97.00  
+NA
+Min.   : 4.00  
+1st Qu.:32.00  
+Median :51.00  
+Mean   :46.81  
+3rd Qu.:62.00  
+Max.   :94.00  
+NA
+Min.   : 9.00  
+1st Qu.:44.00  
+Median :58.00  
+Mean   :55.74  
+3rd Qu.:69.00  
+Max.   :95.00  
+NA
+Min.   : 3.00  
+1st Qu.:25.00  
+Median :52.00  
+Mean   :46.38  
+3rd Qu.:64.00  
+Max.   :92.00  
+NA
+Min.   : 2.00  
+1st Qu.:39.00  
+Median :55.00  
+Mean   :50.07  
+3rd Qu.:64.00  
+Max.   :95.00  
+NA
+Min.   : 9.00  
+1st Qu.:44.00  
+Median :55.00  
+Mean   :53.61  
+3rd Qu.:64.00  
+Max.   :94.00  
+NA
+Min.   : 7.00  
+1st Qu.:39.00  
+Median :49.00  
+Mean   :48.38  
+3rd Qu.:60.00  
+Max.   :92.00  
+NA
+Min.   :12.00  
+1st Qu.:51.00  
+Median :60.00  
+Mean   :58.53  
+3rd Qu.:67.00  
+Max.   :96.00  
+NA
+Min.   : 1.00  
+1st Qu.:29.00  
+Median :52.00  
+Mean   :46.85  
+3rd Qu.:64.00  
+Max.   :94.00  
+NA
+Min.   : 5.00  
+1st Qu.:27.00  
+Median :55.00  
+Mean   :47.64  
+3rd Qu.:66.00  
+Max.   :92.00  
+NA
+Min.   : 3.00  
+1st Qu.:24.00  
+Median :52.00  
+Mean   :45.61  
+3rd Qu.:64.00  
+Max.   :90.00  
+NA
+Min.   : 1.00  
+1st Qu.: 8.00  
+Median :11.00  
+Mean   :16.57  
+3rd Qu.:14.00  
+Max.   :90.00  
+NA
+Min.   : 1.00  
+1st Qu.: 8.00  
+Median :11.00  
+Mean   :16.35  
+3rd Qu.:14.00  
+Max.   :92.00  
+NA
+Min.   : 1.00  
+1st Qu.: 8.00  
+Median :11.00  
+Mean   :16.21  
+3rd Qu.:14.00  
+Max.   :93.00  
+NA
+Min.   : 1.00  
+1st Qu.: 8.00  
+Median :11.00  
+Mean   :16.37  
+3rd Qu.:14.00  
+Max.   :91.00  
+NA
+Min.   : 1.00  
+1st Qu.: 8.00  
+Median :11.00  
+Mean   :16.71  
+3rd Qu.:14.00  
+Max.   :92.00  
+NA
+Min.   : 256.0  
+1st Qu.: 484.0  
+Median : 625.0  
+Mean   : 660.9  
+3rd Qu.: 841.0  
+Max.   :1764.0  
+NA

@@ -1,0 +1,8 @@
+export("attacker", "coeff_diffs", "coeffs", "column", "convert_work_rate",
+       "current", "date_to_num", "defender", "e", "element", "fifa",
+       "fifa_selected", "food.gls", "g", "goalkeeper", "i", "ind_of_max", "j",
+       "lmMod", "mat", "max", "midfielder", "myvals", "new_regression",
+       "old_coeffs", "old_ts", "p", "position_arr", "positions", "r",
+       "residuals_and_omitted", "score_components", "selected_columns", "t",
+       "tdiffs", "technical_criteria", "top_clubs", "top_countries", "ts",
+       "varfunc.ols")
