@@ -1,0 +1,54 @@
+from collections import defaultdict, OrderedDict
+#import time
+g_out = defaultdict(list)
+g_in = defaultdict(list)
+e = input()
+while e!= "":
+    s = e.split(" ")
+    source = int(s[0])
+    dests = list(map(int, s[2].split(",")))
+    for a in dests:
+        g_out[source].append(a)
+        g_in[a].append(source)
+    #print("a")
+    e = input()
+#print(g_in)
+#print(g_out)
+#g_out = OrderedDict(sorted(g_out.items()))
+paths = []
+g = g_in.keys()
+for v in g_out.keys():
+    if v in g_out.keys() and len(g_out[v]) == 1 and v in g_in.keys() and len(g_in[v]) == 1:
+        #print(v)
+        #time.sleep(0.1)
+        flag = 0
+        for path in paths:
+            if v in path:
+                flag = 1
+                break
+        if flag == 0:
+            cycle = [v]
+            w = v
+            while w in g_out.keys() and len(g_out[w]) == 1 and w in g_in.keys() and len(g_in[w]) == 1:
+                #print("g_out[w][0]: ", g_out[w][0])
+                #time.sleep(0.15)
+                cycle.append(g_out[w][0])
+                if g_out[w][0] == cycle[0]:
+                    paths.append(cycle)
+                    break
+                w = g_out[w][0]
+    elif len(g_out[v]) > 0:
+        for e in g_out[v]:
+            branch = [v,e]
+            w = e
+            while w in g_out.keys() and len(g_out[w]) == 1 and w in g_in.keys() and len(g_in[w]) == 1:
+                branch.append(g_out[w][0])
+                w = g_out[w][0]
+            paths.append(branch)
+    #print("b")
+for path in paths:
+    for ind in range(len(path)):
+        if ind == len(path) - 1:
+            print(path[ind])
+        else:
+            print(path[ind], end=" -> ")

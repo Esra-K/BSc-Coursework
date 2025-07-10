@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1562950860656.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3280183427",
+    "id" : "798D4530",
+    "lastKnownWriteTime" : 1562958649,
+    "last_content_update" : 1562958649667,
+    "path" : "C:/Users/hp/Desktop/Bio_Project/95105816/Src/source.R",
+    "project_path" : "Src/source.R",
+    "properties" : {
+        "cursorPosition" : "91,35",
+        "scrollLine" : "77",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

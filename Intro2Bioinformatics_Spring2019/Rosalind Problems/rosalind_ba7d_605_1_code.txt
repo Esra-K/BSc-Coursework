@@ -1,0 +1,75 @@
+from collections import defaultdict
+
+def UPGMA(n, mat):
+    def average():
+        n = len(clusters)
+        dc = [[0 for j in range(n)] for i in range(n)]
+        for c1 in range(n):
+            for c2 in range(c1 + 1, n):
+                dist = 0.
+                for i in clusters[c1]:
+                    for j in clusters[c2]:
+                        dist += mat[i][j]
+                dist = float(dist) / (len(clusters[c1]) * len(clusters[c2]))
+                dc[c1][c2] = dist
+                dc[c2][c1] = dist
+        return dc
+
+    def nearestPair():
+        min_dist = d[0][1]
+        argmin = (0, 1)
+        for i in range(len(d)):
+            for j in range(i + 1, len(d)):
+                if d[i][j] < min_dist:
+                    min_dist = d[i][j]
+                    argmin = (i, j)
+        return argmin
+
+    def merge(c1, c2):
+        c = clusters[c1] + clusters[c2]
+        clusters.pop(c1)
+        clusters.pop(c2 - 1)
+        clusters.append(c)
+        new = max(labels) + 1
+        labels.pop(c1)
+        labels.pop(c2 - 1)
+        labels.append(new)
+        return average()
+ 
+    d = mat
+    tree = defaultdict(list)
+    clusters = []
+    labels = []
+    dic = defaultdict()
+    for i in range(n):
+        clusters += [[i]]
+        labels += [i]
+        dic[i] = 0
+
+    while len(clusters) > 1:
+        c1, c2 = nearestPair()
+        l1 = labels[c1]
+        l2 = labels[c2]
+        distance = d[c1][c2]
+        d = merge(c1, c2)
+        label = labels[len(labels) - 1]
+        tree[label] = [l1, l2]
+        tree[l1]  += [label]
+        tree[l2] += [label]
+        dic[label] = float(distance) / 2
+
+    out = defaultdict(list)
+    for key, value in tree.items():
+        for e in value:
+            age = abs(dic[key] - dic[e])
+            out[key].append((e, age))
+    return out
+
+n = int(input())
+a = []
+for i in range(n):
+    a.append(list(map(int, input().strip().split("\t"))))
+out = UPGMA(n, a)
+for k in sorted(out.keys()):
+    for dad in sorted(out[k], key= lambda x: x[0]):
+        print(str(k) + "->" + str(dad[0]) + ":" + "{0:.3f}".format(dad[1]))

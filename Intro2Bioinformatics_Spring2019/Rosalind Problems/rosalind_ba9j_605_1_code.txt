@@ -1,0 +1,7 @@
+string = input()
+table = [''] * len(string)
+for i in range(len(string)):
+     table = sorted(s + t for s, t in zip(string, table))
+for t in table:
+    if t[len(t) - 1] == "$":
+        print(t)

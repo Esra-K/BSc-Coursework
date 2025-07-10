@@ -1,0 +1,96 @@
+import numpy as np
+from collections import defaultdict
+import time
+
+def neighbor_joining(n, m):
+    mat = np.array(m)
+    def new_distance():
+        distance_sum = np.sum(mat, axis=1).reshape((len(mat) , 1))
+        o = np.ones(len(mat)).reshape((1, len(mat)))
+        distance_sum = np.dot(distance_sum, o)
+        new = np.multiply(mat, (len(mat)-2)) - distance_sum - np.transpose(distance_sum)
+        for i in range(len(mat)):
+            new[i][i] = 0.
+
+        return new
+
+    def minPair():
+        table = new_distance()
+        minn = table[0][1]
+        argmin = 0, 1
+        for i in range(len(mat)):
+            for j in range(i + 1, len(mat)):
+                if table[i, j] < minn:
+                    minn = table[i, j]
+                    argmin = i, j
+        return argmin
+
+    def delta():
+        n = len(mat)
+        table = np.sum(mat, axis=1).reshape((n, 1))
+        o = np.ones((1,n))
+        table = np.dot(table, o)
+        result = (table - np.transpose(table)) / float(len(mat) - 2)
+        return result
+
+    def limb_length(i, j):
+        delt = delta()
+        plus = 0.5 * (mat[i][j] + delt[i][j])
+        minus = 0.5 * (mat[i][j] - delt[i][j])
+        return plus, minus
+
+    def reduce_distance(c1, c2):
+        n = len(mat)
+        indices = [i for i in range(len(mat))]
+        aD = [[0 for j in range(len(mat)+1)] for i in range(len(mat) + 1)]
+        for i in range(len(indices)):
+            for j in range(len(indices)):
+                aD[i][j] = mat[indices[i]][indices[j]]
+
+        indices.remove(c1)
+        indices.remove(c2)
+
+        for k in indices:
+            aDk = 0.5 * (mat[k][c1] + mat[k][c2] - mat[c1][c2])
+            aD[k][n] = aDk
+            aD[n][k] = aDk
+        rD = [[0 for j in range(len(mat)-1)] for i in range(len(mat) - 1)]
+        indices.append(n)
+        for i in range(len(indices)):
+            for j in range(len(indices)):
+                rD[i][j] = aD[indices[i]][indices[j]]
+        return rD
+
+    out = defaultdict(list)
+    label = [i for i in range(n)]
+
+    while len(mat) > 2:
+        (i, j) = minPair()
+        (label1, label2) = (label[i], label[j])
+        (wi, wj) = limb_length(i, j)
+
+        newnode = max(label) + 1
+        out[newnode].extend([(label1, wi), (label2, wj)])
+        out[label1].append((newnode, wi))
+        out[label2].append((newnode, wj))
+
+        label.append(newnode)
+        label.remove(label1)
+        label.remove(label2)
+
+        mat = reduce_distance(i, j)
+
+    out[label[0]].append((label[1], mat[0][1]))
+    out[label[1]].append((label[0], mat[1][0]))
+
+    return out
+
+n = int(input())
+a = []
+for i in range(n):
+    a.append(list(map(int, input().strip().split("\t"))))
+out = neighbor_joining(n, np.array(a))
+
+for k in sorted(out.keys()):
+    for dad in sorted(out[k], key= lambda x: x[0]):
+        print(str(k) + "->" + str(dad[0]) + ":" + "{0:.3f}".format(dad[1]))

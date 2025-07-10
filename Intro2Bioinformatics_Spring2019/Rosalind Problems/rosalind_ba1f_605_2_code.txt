@@ -1,0 +1,17 @@
+absurdString = input()
+skews = [0] * (len(absurdString) + 1)
+for index in range(1, len(absurdString) + 1):
+    if absurdString[index - 1] == 'C':
+        skews[index] = skews[index - 1] - 1
+    elif absurdString[index - 1] == 'G':
+        skews[index] = skews[index - 1] + 1
+    else:
+        skews[index] = skews[index - 1]
+
+min_value = min(skews)
+output = [i for i, x in enumerate(skews) if x == min_value]
+for index in range(len(output)):
+    if index == len(output) - 1:
+        print(output[index], end="")
+    else:
+        print(output[index], end= " ")

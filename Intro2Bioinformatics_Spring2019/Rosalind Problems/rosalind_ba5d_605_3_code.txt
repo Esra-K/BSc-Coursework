@@ -1,0 +1,102 @@
+from collections import defaultdict
+
+'''def longestPath(start, n):
+    stack = []
+    visited = [False] * n
+    #startCandidates = []
+    for i in range(n):
+        if not visited[i]:
+            #startCandidates.append(i)
+            topolSort(i, visited, stack)
+    print("stack: ", stack)
+    dist = [infinity()] * n
+    dist[start] = 0
+    while(len(stack) > 0):
+        next = stack.pop()
+        if dist[next] != infinity():
+            for i in range(n):
+                if next in out_edges and i in [row[0] for row in out_edges[next]]:
+                    index = [j for j, tupl in enumerate(out_edges[next]) if tupl[0] == i]
+                    if dist[i] < dist[next] + out_edges[next][index[0]][1]:
+                        dist[i] = dist[next] + out_edges[next][index[0]][1]
+                        parent[i] = next
+    max = infinity()
+    argmax = 387384789327
+    for i in range(n):
+        if dist[i] > max:
+            max = dist[i]
+            argmax = i
+    v = argmax
+    array = []
+    while(v in parent):
+        array.append(v)
+        v = parent[v]
+    array = array[::-1]
+    print("with start from ", start,", longest path: ", array)'''
+
+
+
+
+
+
+
+
+
+def minusInf():
+    return -2**32
+dic1 = defaultdict(list)
+dic2 = defaultdict(list)
+d = defaultdict(int)
+parent = defaultdict(int)
+source = int(input())
+end = int(input())
+edge = input()
+while edge != "":
+    ind1 = edge.find("->")
+    ind2 = edge.find(":")
+    a = int(edge[0:ind1])
+    b = int(edge[ind1 + 2: ind2])
+    w = int(edge[ind2 + 1:])
+    d[a] = minusInf()
+    d[b] = minusInf()
+    parent[a] = a
+    parent[b] = b
+    dic1[b].append([a, w])
+    dic2[a].append([b, w])
+    edge = input()
+d[source] = 0
+parent[source] = None
+stack = [source]
+while len(stack) > 0:
+    current = stack.pop()
+    for i in range(len(dic2[current])):
+
+        u = dic2[current][i][0]
+        w = dic2[current][i][1]
+        #print(u)
+        stack.append(u)
+        if d[u] < d[current] + w:
+            parent[u] = current
+            d[u] = d[current] + w
+
+max = minusInf()
+argmax = 842948
+for k in list(d.keys()):
+    #print(k, d[k], parent[k])
+    if d[k] > max:
+        max = d[k]
+        argmax = k
+
+u = end
+out = []
+while u != source:
+    out += [u]
+    u = parent[u]
+out += [source]
+print(d[end])
+
+for i in range(len(out)-1, -1, -1):
+    if i == 0:
+        print(out[i], end="")
+    else:
+        print(out[i], end="->")

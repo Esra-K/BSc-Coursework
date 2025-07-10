@@ -1,0 +1,66 @@
+from collections import defaultdict
+import threading
+import time
+out_edges = defaultdict(list)
+in_edges = defaultdict(list)
+m = 0
+with open("a.txt") as f:
+    for c in f:
+        if c[len(c) - 1] == "\n":
+            a = c[0:len(c) - 1]
+        else:
+            a = c
+        #print(a)
+        path = a.split(" ")
+        if not int(path[0]) in in_edges:
+            in_edges[int(path[0])] = []
+        for dest in path[2].split(","):
+            if not int(dest) in out_edges:
+                out_edges[int(dest)] = []
+            out_edges[int(path[0])].append([int(dest), False])
+            in_edges[int(dest)].append(int(path[0]))
+            m += 1
+#print(out_edges)
+#print(in_edges)
+start = 0
+end = 0
+for key in out_edges:
+    if len(out_edges[key]) == len(in_edges[key]) + 1:
+        start = key
+    if len(out_edges[key]) == len(in_edges[key]) - 1:
+        end = key
+#print("start = ", start)
+#print("end = ",end)
+out_edges[end].append([start, False])
+in_edges[start].append([end, False])
+stack = [start]
+circuit = []
+cut = 0
+while len(stack) > 0:
+    current = stack[len(stack) - 1]
+    flag = False
+    #print("out_edges[current]",out_edges[current])
+
+    for dest in range(len(out_edges[current])):
+        #try:
+            #print("out_edges[current][dest][1]",out_edges[current][dest][1])
+            #time.sleep(0.1)
+        #except Exception:
+            #print("Exception", out_edges[current][dest])
+        if (out_edges[current][dest][1] == False):
+            out_edges[current][dest][1] = True
+            flag = True
+            stack.append(out_edges[current][dest][0])
+            break
+    if flag == False:
+        if(len(circuit) > 0 and circuit[len(circuit) - 1] == start and current == end):
+            cut = len(circuit)
+        circuit.append(current)
+        stack.pop()
+
+circuit = circuit[1:cut][::-1] + circuit[cut:len(circuit)][::-1]
+for index in range(len(circuit)):
+    if index < len(circuit) - 1:
+        print(circuit[index], end="->")
+    else:
+        print(circuit[index], end="")

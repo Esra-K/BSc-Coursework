@@ -1,0 +1,68 @@
+from collections import defaultdict
+import  time
+def burrows_wheeler(s):
+    suff_arr = sorted(range(len(s)), key=lambda i: s[i:])
+    out = ''
+    for i in suff_arr:
+        out += s[(i-1) % len(s)]
+    return out, suff_arr
+#print(burrows_wheeler('AACGATAGCGGTAGA$'))
+def multpatmat(string, pattern):
+    bw, suff_arr = burrows_wheeler(string)
+    #print(bw, suff_arr)
+    dic = defaultdict(list)
+    dict_array = [defaultdict(list)]
+
+    for char in bw:
+        dic[char] = dic.get(char,0) + 1
+        dict_array.append(dic.copy())
+        #print(dict_array)
+    #print(dict_array)
+    #print(dic)
+    #time.sleep(1)
+    first_time = defaultdict(int)
+    for index, value in enumerate(sorted(bw)):
+        if not value in first_time.keys():
+            first_time[value] = index
+    #print(first_time)
+    #time.sleep(1)
+    out = []
+    for pat in patterns:
+        start = 0
+        end = len(bw) - 1
+        k = []
+        flag = False
+        while start <= end and not flag:
+            if pat:
+                char = pat[-1]
+                pat = pat[:-1]
+                b = dict_array[end + 1].get(char,0)
+                c = dict_array[start].get(char,0)
+                print(b,c)
+                if b > c:
+                    d = first_time[char]
+                    start = d + c
+                    end = d + b - 1
+                    #print("hi!")
+                else:
+                    #print("else")
+                    flag = True
+            else:
+                k = [suff_arr[i] for i in range(start, end + 1)]
+                #print(k)
+                out = out + k
+                break
+    out.sort()
+    return out
+string = input()
+patterns = []
+e = input()
+while e != "":
+    patterns.append(e)
+    e = input()
+string += "$"
+x = multpatmat(string, patterns)
+for e in x:
+    print(e, end=" ")
+'''while True:
+    time.sleep(1)'''

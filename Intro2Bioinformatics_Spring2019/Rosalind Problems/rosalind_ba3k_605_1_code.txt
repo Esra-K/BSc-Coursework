@@ -1,0 +1,69 @@
+from collections import defaultdict
+
+kmers = []
+a = input()
+while a != "":
+    kmers.append(a)
+    a = input()
+deBruyne = []
+kdb = defaultdict(list)
+for s in kmers:
+    pre = s[0:len(s) - 1]
+    kdb[pre].append(s[1:len(s)])
+#print(kdb)
+tmp = kdb.copy()
+keyss = sorted(tmp)
+
+kdb = defaultdict(list)
+for key in keyss:
+    a = tmp[key]
+    a.sort()
+    kdb[key] = a
+#print(kdb)
+in_deg = defaultdict(int)
+for k in kdb.keys():
+    for a in kdb[k]:
+        in_deg[a] += 1
+paths = []
+for (v,e) in kdb.items():
+    if v in kdb.keys() and len(kdb[v]) == 1 and v in in_deg.keys() and (in_deg[v]) == 1:
+        flag = 0
+        for path in paths:
+            if v in path:
+                flag = 1
+                break
+        if flag == 0:
+            cycle = [v]
+            w = v
+            while w in kdb.keys() and len(kdb[w]) == 1 and w in in_deg.keys() and (in_deg[w]) == 1:
+                #print("g_out[w][0]: ", g_out[w][0])
+                #time.sleep(0.15)
+                cycle.append(kdb[w][0])
+                if kdb[w][0] == cycle[0]:
+                    paths.append(cycle)
+                    break
+                w = kdb[w][0]
+    elif len(kdb[v]) > 0:
+        for e in kdb[v]:
+            branch = [v,e]
+            w = e
+            while w in kdb.keys() and len(kdb[w]) == 1 and w in in_deg.keys() and (in_deg[w]) == 1:
+                branch.append(kdb[w][0])
+                w = kdb[w][0]
+            paths.append(branch)
+strings = []
+for contig in paths:
+    s = ""
+    for ind in range(len(contig)):
+        if ind == len(contig) - 1:
+            s += contig[ind]
+        else:
+            s += contig[ind][0:1]
+    strings.append(s)
+for ind in range(len(strings)):
+    if ind == len(strings) - 1:
+        print(strings[ind], end="")
+    else:
+        print(strings[ind], end=" ")
+#print(paths)
+#print(kdb)

@@ -1,0 +1,33 @@
+long = input()
+short = input().split(" ")
+short.sort(key = lambda s: len(s))
+d = int(input())
+l = len(short[0])
+start = 0
+end = 0
+i = 0
+arr = [0]
+def hamming(s1, s2):
+    d = 0
+    for i in range(len(s2)):
+        if s1[i] != s2[i]:
+            d +=1
+    return d
+while i != len(short):
+    while  i < len(short) and len(short[i]) == l:
+        i += 1
+    arr.append(i)
+    if i < len(short):
+        l = len(short[i])
+#print(arr)
+out = []
+for i in range(len(arr) - 1):
+    ps = short[arr[i]: arr[i + 1]]
+    l = len(ps[0])
+    for j in range(len(long) - l + 1):
+        for p in ps:
+            if hamming(p,long[j: j + l]) <= d:
+                out.append(j)
+out.sort()
+for o in out:
+    print(o, end=" ")

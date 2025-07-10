@@ -1,0 +1,104 @@
+import numpy as np
+from collections import defaultdict
+
+def limb(j, mat):
+
+    i = (j+1) % len(mat)
+    k = (j+2) % len(mat)
+
+    minn = (mat[i, j] + mat[j, k] - mat[i, k]) / 2
+
+    for i in range(len(mat)):
+        for k in range(i+1,len(mat)):
+            if i!=j and k!=j:
+                lenn = (mat[i, j] + mat[j, k] - mat[i, k]) / 2
+                minn = min(minn,lenn)
+
+    return minn
+
+
+def path(i, j):
+    visited = [None] * (max(g.keys()) + 1)
+
+    def findpath(path_arr, j):
+        for next in g[path_arr[len(path_arr) - 1][0]]:
+            if not visited[next[0]]:
+                visited[next[0]] = True
+                lenn = path_arr[len(path_arr) - 1][1] + next[1]
+                next_path = path_arr
+                next_path += [(next[0], lenn)]
+                if next[0] == j:
+                    return next_path
+                pat = findpath(next_path, j)
+                if not pat is None:
+                    return pat
+        return
+
+    return findpath([(i, 0)],  j)
+
+def add_leaf(leaf, i, j, x, w):
+    pat = path(i, j)
+    parent = None
+    flag = False
+    for k in range(len(pat) - 1):
+        if pat[k][1] == x:
+            flag = True
+            parent = pat[k][0]
+            break
+        if pat[k][1] < x and x < pat[k + 1][1]:
+            u = pat[k][0]
+            v = pat[k + 1][0]
+            w = pat[k + 1][1] - pat[k][1]
+            w1 = x - pat[k][1]
+            w2 = w - w1
+            parent = max(max(list(g.keys())), n - 1) + 1
+            flag = True
+            if (v, w) in g[u]:
+                g[u].remove((v, w))
+            if (u, w) in g[v]:
+                g[v].remove((u, w))
+            g[parent] = []
+
+            g[u].append((parent, w1))
+            g[parent].append((u, w1))
+
+            g[v].append((parent, w2))
+            g[parent].append((v, w2))
+    if flag:
+        g[leaf].append((parent, w))
+        g[parent].append((leaf, w))
+    return
+
+def additive_triple(d, l):
+    for i in range(l):
+        for k in range(i + 1, l):
+            if d[i, k] == d[i, l] + d[l, k]:
+                return (i, k)
+    return
+
+def add_phy(node_count, mat):
+    if node_count == 2:
+        return
+    limbo = limb(node_count - 1, mat[:node_count, :node_count])
+    for j in range(node_count - 1):
+        mat[node_count - 1, j] -= limbo
+        mat[j, node_count - 1] -= limbo
+    (i, k) = additive_triple(mat, node_count - 1)
+    element = mat[i, node_count - 1]
+    add_phy(node_count - 1, mat)
+    add_leaf(node_count - 1, i, k, element, limbo)
+    return
+
+
+n = int(input())
+a = []
+for i in range(n):
+    a.append(list(map(int, input().split(" "))))
+m = np.array(a)
+g = defaultdict(list)
+g[0] = [(1, m[0, 1]), ]
+g[1] = [(0, m[1, 0]), ]
+add_phy(n, m)
+for k in sorted(g.keys()):
+    for dad in sorted(g[k], key= lambda g: g[0]):
+        print(str(k) + "->" + str(dad[0]) + ":" + str(int(dad[1])))

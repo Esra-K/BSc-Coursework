@@ -1,0 +1,35 @@
+endGame = ' '
+from collections import defaultdict
+def trie(patts):
+    root = dict()
+    for pat in patts:
+        dic = root
+        for c in pat:
+            dic = dic.setdefault(c, {})
+        dic = dic.setdefault(endGame,endGame)
+    return root
+
+def triesearch(trie, string):
+    myKeys = trie.keys()
+    if endGame in myKeys:
+        return True
+    if not string:
+        return False
+    first = string[0]
+    suffix = string[1:]
+    if first in myKeys:
+        return triesearch(trie[first],suffix)
+    return False
+
+string = input()
+lis = []
+e = input()
+while e != "":
+    lis.append(e)
+    e = input()
+dic = trie(lis)
+out = ""
+for i in range(len(string)):
+    if triesearch(dic, string[i:]):
+        out += str(i) + " "
+print(out[:-1])

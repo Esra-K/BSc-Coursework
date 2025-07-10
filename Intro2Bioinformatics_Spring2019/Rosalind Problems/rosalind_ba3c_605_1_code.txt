@@ -1,0 +1,15 @@
+e = input()
+into = []
+outta = []
+while(e != ""):
+    into.append(e)
+    e = input()
+for i in range(len(into)):
+    for j in range(i+1, len(into)):
+        if into[i][0:len(into[i]) - 1] == into[j][1:len(into[j])]:
+            outta.append(into[j] + " -> " + into[i])
+        elif into[j][0:len(into[j]) - 1] == into[i][1:len(into[i])]:
+            outta.append(into[i] + " -> " + into[j])
+
+for a in outta:
+    print(a)

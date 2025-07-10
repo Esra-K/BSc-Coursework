@@ -1,0 +1,124 @@
+setwd("C:\\Users\\hp\\Desktop\\Bio_Project\\95105816")
+
+library(Biobase)
+library(GEOquery)
+library(limma)
+library(pheatmap)
+library(gplots)
+library(ggplot2)
+library(reshape2)
+library(plyr)
+
+series <- "GSE48558"
+platform <- "GPL6244"
+
+#Download
+gset <- getGEO(series, GSEMatrix=TRUE, AnnotGPL=TRUE, destdir= "Data\\" )
+
+#Select appropriate dataset
+
+if (length(gset) > 1) idx <- grep(platform, attr(gset, "names")) else idx <- 1
+gset <- gset[[idx]]
+
+gr <- c(rep("AML", 13), rep("AML", 24),"Anomalia", "AML", "AML", "Normal", rep("AML", 3),
+        "Normal", rep("AML", 23), "Normal", "AML", "Normal",
+        rep("AML", 3), "Normal", "AML",
+        "Normal", rep("Normal", 2),
+        "Normal", "AML", "Normal", rep("AML", 2),
+        "Normal", "Anomalia", rep("AML", 2), rep("Normal", 2), "AML",
+        "Normal", "AML", "Normal", "AML", "Normal", "AML",
+        "Normal", "AML", "Anomalia", rep("AML", 3),
+        "Normal", rep("AML", 3), "Normal", rep("AML", 29),
+        rep("Normal", 7), rep("AML",2), "Normal", "AML", 
+        "Anomalia", "AML", rep("Normal", 8), rep("Normal", 4), 
+        "Normal", rep("Normal", 7)
+)
+
+#Expression Matrix Extraction
+ex <- exprs(gset)
+pdf("Results/boxplot.pdf", height = 50, width = 50)
+boxplot(ex)
+dev.off()
+
+#logFC if required
+#ex <- log2(ex + 1)
+#exprs(gset) <- ex
+
+# Normalize if required
+# ex <- normalizeQuantiles(ex)
+# exprs(gset) <- ex
+
+
+pdf("Results/CorHeatmap.pdf", width = 80, height = 80)
+pheatmap(cor(ex), labels_row = gr, labels_col = gr, color=bluered(256), border_color = NA)
+dev.off()
+
+
+#Apply PCA on genes
+pc <- prcomp(ex)
+pdf("Results/PC.pdf")
+plot(pc$x[,1:2])
+dev.off()
+
+
+#assign Center = True
+ex.scale <- t(scale(t(ex), scale = F)) 
+
+pc <- prcomp(ex.scale)
+pdf("Results/PC_scaled.pdf")
+plot(pc)
+plot(pc$x[,1:2])
+dev.off()
+
+#Apply PCA on samples
+pcr <- data.frame(pc$r[,1:3], Group=gr)
+
+pdf("Results/PCA_samplesFinal.pdf")
+ggplot(pcr, aes(PC1,PC2, color=Group)) + geom_point(size=2) + theme_bw()
+dev.off()
+
+#A More Precise Categorization Of Samples
+
+gr2 <- c(rep("AML1", 13), rep("AML2", 24),"Anomalia", "AML2", "AML2", "Granulocyte", rep("AML2", 3),
+         "Granulocyte", rep("AML2", 23), "Normal2", "AML2", "Normal2",
+         rep("AML2", 3), "Granulocyte", "AML2",
+         "Granulocyte", rep("Monocyte", 2),
+         "Normal2", "AML2", "Normal2", rep("AML2", 2),
+         "Normal2", "Anomalia", rep("AML2", 2), rep("Normal2", 2), "AML2",
+         "Normal2", "AML2", "Normal2", "AML2", "Normal2", "AML2",
+         "Normal2", "AML2", "Anomalia", rep("AML2", 3),
+         "CD34", rep("AML2", 3), "CD34", rep("AML10", 29),
+         rep("Granulocyte", 7), rep("AML2",2), "Normal1", "AML2",
+         "Anomalia", "AML2", rep("Normal1", 8), rep("Monocyte", 4),
+         "Granulocyte", rep("Normal1", 7)
+)
+
+pcr2 <- data.frame(pc$r[,1:3], Group=gr2)
+pdf("Results/More_Precise_PCA_samples.pdf")
+ggplot(pcr, aes(PC1,PC2, color=Group)) + geom_point(size=2) + theme_bw()
+dev.off()
+
+#Differential Expression analysis
+
+fl <- factor(gr)
+gset$description <- fl
+design <- model.matrix(~ description + 0, gset)
+colnames(design) <- levels(fl)
+fit <- lmFit(gset, design)
+cont.matrix <- makeContrasts(AML-Normal, levels=design)
+fit2 <- contrasts.fit(fit, cont.matrix)
+fit2 <- eBayes(fit2, 0.01)
+tT <- topTable(fit2, adjust="fdr", sort.by="B", number=Inf)
+tT <- subset(tT, select=c("Gene.symbol", "Gene.ID","adj.P.Val","logFC"))
+write.table(tT, "Results/AML_Normal.txt", row.names=F, sep="\t", quote = F)
+
+
+aml.up <- subset(tT, logFC > 1 & adj.P.Val < 0.05)
+aml.up.genes <- unique(as.character(strsplit2(aml.up$Gene.symbol, "///")))
+write.table(aml.up.genes, file = "Results/AML_Normal_Up.txt", quote = F, row.names = F, col.names = F)
+
+aml.down <- subset(tT, logFC < -1 & adj.P.Val < 0.05)
+aml.down.genes <- unique(as.character(strsplit2(aml.down$Gene.symbol, "///")))
+write.table(aml.down.genes, file = "Results/AML_Normal_Down.txt", quote = F, row.names = F, col.names = F)
+
+
