@@ -1,0 +1,300 @@
+0.01611842925773956    Customer 1 arrives.
+0.01611842925773956    Customer 1's service time starts
+0.026978446841798346    Customer 2 arrives.
+0.03424396788503416    Customer 1 Departs
+0.03424396788503416    Customer 2's service time starts
+0.046978659338285406    Customer 3 arrives.
+0.05807796039068417    Customer 4 arrives.
+0.061895153387332105    Customer 2 Departs
+0.061895153387332105    Customer 3's service time starts
+0.06570716836061041    Customer 3 Departs
+0.06570716836061041    Customer 4's service time starts
+0.10887848611304711    Customer 4 Departs
+0.389774577522188    Customer 5 arrives.
+0.389774577522188    Customer 5's service time starts
+0.40409359491347896    Customer 5 Departs
+0.41185338880724953    Customer 6 arrives.
+0.41185338880724953    Customer 6's service time starts
+0.4210594276563236    Customer 6 Departs
+0.5429603824940842    Customer 7 arrives.
+0.5429603824940842    Customer 7's service time starts
+0.5607863472007822    Customer 7 Departs
+0.6269588193860112    Customer 8 arrives.
+0.6269588193860112    Customer 8's service time starts
+0.6510483905426179    Customer 8 Departs
+0.818993717225418    Customer 9 arrives.
+0.818993717225418    Customer 9's service time starts
+0.832591191503448    Customer 9 Departs
+0.8997346323774236    Customer 10 arrives.
+0.8997346323774236    Customer 10's service time starts
+0.904098357053195    Customer 10 Departs
+1.0065348218159662    Customer 11 arrives.
+1.0065348218159662    Customer 11's service time starts
+1.0137499627341495    Customer 11 Departs
+1.0525268863411126    Customer 12 arrives.
+1.0525268863411126    Customer 12's service time starts
+1.0581010716830699    Customer 12 Departs
+1.0671915448618894    Customer 13 arrives.
+1.0671915448618894    Customer 13's service time starts
+1.0741813798688578    Customer 14 arrives.
+1.1178718166956867    Customer 13 Departs
+1.1178718166956867    Customer 14's service time starts
+1.132966283743064    Customer 14 Departs
+1.2409517109497679    Customer 15 arrives.
+1.2409517109497679    Customer 15's service time starts
+1.2477948578546567    Customer 15 Departs
+1.609493856582326    Customer 16 arrives.
+1.609493856582326    Customer 16's service time starts
+1.6113280108033867    Customer 16 Departs
+2.078721166338733    Customer 17 arrives.
+2.078721166338733    Customer 17's service time starts
+2.0923357687372475    Customer 17 Departs
+2.400029653686839    Customer 18 arrives.
+2.400029653686839    Customer 18's service time starts
+2.401901849801922    Customer 18 Departs
+2.4749151897981636    Customer 19 arrives.
+2.4749151897981636    Customer 19's service time starts
+2.4784167239318577    Customer 19 Departs
+2.527810546822211    Customer 20 arrives.
+2.527810546822211    Customer 20's service time starts
+2.547972070636233    Customer 20 Departs
+2.647198461009944    Customer 21 arrives.
+2.647198461009944    Customer 21's service time starts
+2.647592103512368    Customer 21 Departs
+3.085213852337711    Customer 22 arrives.
+3.085213852337711    Customer 22's service time starts
+3.086502015669121    Customer 22 Departs
+3.1319651267607527    Customer 23 arrives.
+3.1319651267607527    Customer 23's service time starts
+3.1321546166846117    Customer 23 Departs
+3.2022813959594254    Customer 24 arrives.
+3.2022813959594254    Customer 24's service time starts
+3.2112780892335744    Customer 24 Departs
+3.270171949389908    Customer 25 arrives.
+3.270171949389908    Customer 25's service time starts
+3.278217137168525    Customer 25 Departs
+3.3842932665297996    Customer 26 arrives.
+3.3842932665297996    Customer 26's service time starts
+3.3855853621747447    Customer 26 Departs
+3.5922411390552975    Customer 27 arrives.
+3.5922411390552975    Customer 27's service time starts
+3.5958765431778548    Customer 27 Departs
+3.6325046813871333    Customer 28 arrives.
+3.6325046813871333    Customer 28's service time starts
+3.6583699512746075    Customer 28 Departs
+3.7742453115340413    Customer 29 arrives.
+3.7742453115340413    Customer 29's service time starts
+3.778014414456204    Customer 29 Departs
+3.8244911082088335    Customer 30 arrives.
+3.8244911082088335    Customer 30's service time starts
+3.8358818722940593    Customer 31 arrives.
+3.8448247596990326    Customer 32 arrives.
+3.8448491449322257    Customer 33 arrives.
+3.8496817985591254    Customer 30 Departs
+3.8496817985591254    Customer 31's service time starts
+3.8581498021577243    Customer 31 Departs
+3.8581498021577243    Customer 32's service time starts
+3.8744728902591805    Customer 32 Departs
+3.8744728902591805    Customer 33's service time starts
+3.8820053818258544    Customer 33 Departs
+3.8861240223087044    Customer 34 arrives.
+3.8861240223087044    Customer 34's service time starts
+3.887341384406683    Customer 34 Departs
+3.9462246017308567    Customer 35 arrives.
+3.9462246017308567    Customer 35's service time starts
+3.9589855371664417    Customer 35 Departs
+4.007728747975907    Customer 36 arrives.
+4.007728747975907    Customer 36's service time starts
+4.038233567915645    Customer 36 Departs
+4.226426168315962    Customer 37 arrives.
+4.226426168315962    Customer 37's service time starts
+4.228644811712725    Customer 37 Departs
+4.378673905075097    Customer 38 arrives.
+4.378673905075097    Customer 38's service time starts
+4.379557729500501    Customer 38 Departs
+4.391946370958678    Customer 39 arrives.
+4.391946370958678    Customer 39's service time starts
+4.402626610546234    Customer 39 Departs
+4.50839676423889    Customer 40 arrives.
+4.50839676423889    Customer 40's service time starts
+4.5104057720205395    Customer 40 Departs
+4.667379811303331    Customer 41 arrives.
+4.667379811303331    Customer 41's service time starts
+4.667385551817131    Customer 41 Departs
+4.754240590908321    Customer 42 arrives.
+4.754240590908321    Customer 42's service time starts
+4.796369965147905    Customer 42 Departs
+4.818573982177654    Customer 43 arrives.
+4.818573982177654    Customer 43's service time starts
+4.835883849647795    Customer 43 Departs
+4.907670592797344    Customer 44 arrives.
+4.907670592797344    Customer 44's service time starts
+4.941780293526886    Customer 44 Departs
+5.203125336635631    Customer 45 arrives.
+5.203125336635631    Customer 45's service time starts
+5.204540758601273    Customer 45 Departs
+5.211488730671954    Customer 46 arrives.
+5.211488730671954    Customer 46's service time starts
+5.215213999912461    Customer 46 Departs
+5.253364963637075    Customer 47 arrives.
+5.253364963637075    Customer 47's service time starts
+5.273625631271189    Customer 47 Departs
+5.326315049360014    Customer 48 arrives.
+5.326315049360014    Customer 48's service time starts
+5.363768846028995    Customer 48 Departs
+5.41371051752347    Customer 49 arrives.
+5.41371051752347    Customer 49's service time starts
+5.431206929007413    Customer 49 Departs
+5.4845117960807475    Customer 50 arrives.
+5.4845117960807475    Customer 50's service time starts
+5.528520281969363    Customer 50 Departs
+5.575547986018003    Customer 51 arrives.
+5.575547986018003    Customer 51's service time starts
+5.57792892213733    Customer 51 Departs
+5.637901285664598    Customer 52 arrives.
+5.637901285664598    Customer 52's service time starts
+5.648095872109102    Customer 52 Departs
+5.664829867337661    Customer 53 arrives.
+5.664829867337661    Customer 53's service time starts
+5.6651560683937925    Customer 53 Departs
+5.667565475538707    Customer 54 arrives.
+5.667565475538707    Customer 54's service time starts
+5.681130732109849    Customer 54 Departs
+5.79069936241356    Customer 55 arrives.
+5.79069936241356    Customer 55's service time starts
+5.805994266809663    Customer 55 Departs
+5.88151364425762    Customer 56 arrives.
+5.88151364425762    Customer 56's service time starts
+5.914745411403102    Customer 56 Departs
+5.977142487276371    Customer 57 arrives.
+5.977142487276371    Customer 57's service time starts
+5.985492074203385    Customer 57 Departs
+6.194300069566738    Customer 58 arrives.
+6.194300069566738    Customer 58's service time starts
+6.195249164702357    Customer 59 arrives.
+6.212517006732611    Customer 58 Departs
+6.212517006732611    Customer 59's service time starts
+6.220842734012445    Customer 59 Departs
+6.286587996789942    Customer 60 arrives.
+6.286587996789942    Customer 60's service time starts
+6.309421075032946    Customer 61 arrives.
+6.309688155542812    Customer 60 Departs
+6.309688155542812    Customer 61's service time starts
+6.316191252588389    Customer 61 Departs
+6.402586317391392    Customer 62 arrives.
+6.402586317391392    Customer 62's service time starts
+6.4076509893242335    Customer 62 Departs
+6.488916456481822    Customer 63 arrives.
+6.488916456481822    Customer 63's service time starts
+6.48992619168486    Customer 63 Departs
+6.520392802938244    Customer 64 arrives.
+6.520392802938244    Customer 64's service time starts
+6.535299468221532    Customer 64 Departs
+6.596913520228541    Customer 65 arrives.
+6.596913520228541    Customer 65's service time starts
+6.5975692033297495    Customer 65 Departs
+6.728172856185731    Customer 66 arrives.
+6.728172856185731    Customer 66's service time starts
+6.742953001391757    Customer 66 Departs
+6.761364089017335    Customer 67 arrives.
+6.761364089017335    Customer 67's service time starts
+6.767936041983191    Customer 67 Departs
+6.807504410718226    Customer 68 arrives.
+6.807504410718226    Customer 68's service time starts
+6.812203570372753    Customer 68 Departs
+6.827158901110615    Customer 69 arrives.
+6.827158901110615    Customer 69's service time starts
+6.8351238004666355    Customer 70 arrives.
+6.835256616287878    Customer 69 Departs
+6.835256616287878    Customer 70's service time starts
+6.862949762374216    Customer 70 Departs
+6.882511762615814    Customer 71 arrives.
+6.882511762615814    Customer 71's service time starts
+6.887344333849188    Customer 71 Departs
+6.95276941539051    Customer 72 arrives.
+6.95276941539051    Customer 72's service time starts
+6.961234104001087    Customer 72 Departs
+7.059548242113525    Customer 73 arrives.
+7.059548242113525    Customer 73's service time starts
+7.065435074353764    Customer 73 Departs
+7.0772443510347    Customer 74 arrives.
+7.0772443510347    Customer 74's service time starts
+7.095277111989602    Customer 74 Departs
+7.1294163378952105    Customer 75 arrives.
+7.1294163378952105    Customer 75's service time starts
+7.154406647555999    Customer 75 Departs
+7.2528756371380885    Customer 76 arrives.
+7.2528756371380885    Customer 76's service time starts
+7.253486562410543    Customer 76 Departs
+7.453556871455557    Customer 77 arrives.
+7.453556871455557    Customer 77's service time starts
+7.464820934637202    Customer 78 arrives.
+7.465833443524374    Customer 77 Departs
+7.465833443524374    Customer 78's service time starts
+7.480735802119735    Customer 78 Departs
+7.520984647326773    Customer 79 arrives.
+7.520984647326773    Customer 79's service time starts
+7.547566039466062    Customer 79 Departs
+7.61780330929397    Customer 80 arrives.
+7.61780330929397    Customer 80's service time starts
+7.618295282279173    Customer 80 Departs
+7.623936715549114    Customer 81 arrives.
+7.623936715549114    Customer 81's service time starts
+7.661485852769249    Customer 82 arrives.
+7.693390323577004    Customer 81 Departs
+7.693390323577004    Customer 82's service time starts
+7.696373790341055    Customer 82 Departs
+7.725216572657798    Customer 83 arrives.
+7.725216572657798    Customer 83's service time starts
+7.726892343743838    Customer 83 Departs
+7.806460497561707    Customer 84 arrives.
+7.806460497561707    Customer 84's service time starts
+7.86301223494464    Customer 84 Departs
+7.930745612025183    Customer 85 arrives.
+7.930745612025183    Customer 85's service time starts
+7.972249756560483    Customer 85 Departs
+8.281360786511927    Customer 86 arrives.
+8.281360786511927    Customer 86's service time starts
+8.282825471021658    Customer 86 Departs
+8.629688990305599    Customer 87 arrives.
+8.629688990305599    Customer 87's service time starts
+8.642399636266358    Customer 87 Departs
+8.698583853751952    Customer 88 arrives.
+8.698583853751952    Customer 88's service time starts
+8.702322471561008    Customer 88 Departs
+9.115870785702134    Customer 89 arrives.
+9.115870785702134    Customer 89's service time starts
+9.121646193812037    Customer 89 Departs
+9.257075300573808    Customer 90 arrives.
+9.257075300573808    Customer 90's service time starts
+9.258276964044514    Customer 90 Departs
+9.32835047498742    Customer 91 arrives.
+9.32835047498742    Customer 91's service time starts
+9.345010690208081    Customer 91 Departs
+9.58439121002063    Customer 92 arrives.
+9.58439121002063    Customer 92's service time starts
+9.589505040194672    Customer 92 Departs
+10.48217544095505    Customer 93 arrives.
+10.48217544095505    Customer 93's service time starts
+10.48377938290314    Customer 93 Departs
+10.588336410847035    Customer 94 arrives.
+10.588336410847035    Customer 94's service time starts
+10.622486259089227    Customer 95 arrives.
+10.633525146359293    Customer 94 Departs
+10.633525146359293    Customer 95's service time starts
+10.650322308826263    Customer 95 Departs
+10.679582258902814    Customer 96 arrives.
+10.679582258902814    Customer 96's service time starts
+10.682846679167879    Customer 96 Departs
+10.883744640776603    Customer 97 arrives.
+10.883744640776603    Customer 97's service time starts
+10.889808039425956    Customer 97 Departs
+10.925680077865307    Customer 98 arrives.
+10.925680077865307    Customer 98's service time starts
+10.929266763996454    Customer 98 Departs
+11.004852318888572    Customer 99 arrives.
+11.004852318888572    Customer 99's service time starts
+11.013158217638177    Customer 100 arrives.
+11.014382479388305    Customer 99 Departs
+11.014382479388305    Customer 100's service time starts
+11.01943397852109    Customer 100 Departs

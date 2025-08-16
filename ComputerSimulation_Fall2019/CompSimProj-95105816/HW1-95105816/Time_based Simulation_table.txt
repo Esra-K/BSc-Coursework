@@ -1,0 +1,600 @@
+2    Customer 1 arrives.
+2    Customer 1's service time starts
+7    Customer 2 arrives.
+7    Customer 1 Departs
+7    Customer 2's service time starts
+9    Customer 2 Departs
+11    Customer 3 arrives.
+11    Customer 3's service time starts
+13    Customer 3 Departs
+16    Customer 4 arrives.
+16    Customer 4's service time starts
+18    Customer 4 Departs
+19    Customer 5 arrives.
+19    Customer 5's service time starts
+22    Customer 6 arrives.
+24    Customer 7 arrives.
+25    Customer 5 Departs
+25    Customer 6's service time starts
+28    Customer 8 arrives.
+29    Customer 9 arrives.
+31    Customer 10 arrives.
+34    Customer 6 Departs
+34    Customer 7's service time starts
+36    Customer 11 arrives.
+36    Customer 7 Departs
+36    Customer 8's service time starts
+38    Customer 8 Departs
+38    Customer 9's service time starts
+39    Customer 12 arrives.
+42    Customer 13 arrives.
+44    Customer 14 arrives.
+47    Customer 9 Departs
+47    Customer 15 arrives.
+47    Customer 10's service time starts
+48    Customer 16 arrives.
+49    Customer 10 Departs
+49    Customer 11's service time starts
+51    Customer 11 Departs
+51    Customer 12's service time starts
+53    Customer 17 arrives.
+54    Customer 12 Departs
+54    Customer 13's service time starts
+56    Customer 18 arrives.
+56    Customer 13 Departs
+56    Customer 14's service time starts
+57    Customer 19 arrives.
+59    Customer 14 Departs
+59    Customer 15's service time starts
+61    Customer 20 arrives.
+64    Customer 15 Departs
+64    Customer 16's service time starts
+66    Customer 21 arrives.
+67    Customer 22 arrives.
+69    Customer 16 Departs
+69    Customer 17's service time starts
+72    Customer 23 arrives.
+74    Customer 17 Departs
+74    Customer 18's service time starts
+76    Customer 18 Departs
+76    Customer 19's service time starts
+77    Customer 24 arrives.
+80    Customer 25 arrives.
+81    Customer 19 Departs
+81    Customer 26 arrives.
+81    Customer 20's service time starts
+85    Customer 27 arrives.
+86    Customer 20 Departs
+86    Customer 21's service time starts
+87    Customer 28 arrives.
+88    Customer 21 Departs
+88    Customer 22's service time starts
+91    Customer 29 arrives.
+93    Customer 22 Departs
+93    Customer 23's service time starts
+94    Customer 30 arrives.
+95    Customer 31 arrives.
+96    Customer 23 Departs
+96    Customer 24's service time starts
+100    Customer 32 arrives.
+101    Customer 24 Departs
+101    Customer 25's service time starts
+105    Customer 33 arrives.
+109    Customer 34 arrives.
+110    Customer 25 Departs
+110    Customer 26's service time starts
+114    Customer 35 arrives.
+115    Customer 36 arrives.
+116    Customer 26 Departs
+116    Customer 27's service time starts
+119    Customer 37 arrives.
+121    Customer 27 Departs
+121    Customer 28's service time starts
+122    Customer 38 arrives.
+126    Customer 39 arrives.
+127    Customer 28 Departs
+127    Customer 29's service time starts
+131    Customer 40 arrives.
+134    Customer 41 arrives.
+136    Customer 29 Departs
+136    Customer 30's service time starts
+137    Customer 42 arrives.
+138    Customer 43 arrives.
+141    Customer 30 Departs
+141    Customer 44 arrives.
+141    Customer 31's service time starts
+144    Customer 45 arrives.
+149    Customer 46 arrives.
+150    Customer 31 Departs
+150    Customer 47 arrives.
+150    Customer 32's service time starts
+152    Customer 48 arrives.
+154    Customer 49 arrives.
+155    Customer 32 Departs
+155    Customer 33's service time starts
+157    Customer 33 Departs
+157    Customer 34's service time starts
+159    Customer 50 arrives.
+162    Customer 34 Departs
+162    Customer 35's service time starts
+164    Customer 51 arrives.
+164    Customer 35 Departs
+164    Customer 36's service time starts
+166    Customer 52 arrives.
+166    Customer 36 Departs
+166    Customer 37's service time starts
+169    Customer 53 arrives.
+172    Customer 37 Departs
+172    Customer 54 arrives.
+172    Customer 38's service time starts
+173    Customer 55 arrives.
+175    Customer 38 Departs
+175    Customer 39's service time starts
+178    Customer 56 arrives.
+180    Customer 39 Departs
+180    Customer 57 arrives.
+180    Customer 40's service time starts
+183    Customer 58 arrives.
+186    Customer 40 Departs
+186    Customer 41's service time starts
+187    Customer 59 arrives.
+192    Customer 60 arrives.
+195    Customer 41 Departs
+195    Customer 42's service time starts
+197    Customer 61 arrives.
+199    Customer 62 arrives.
+201    Customer 42 Departs
+201    Customer 63 arrives.
+201    Customer 43's service time starts
+203    Customer 43 Departs
+203    Customer 44's service time starts
+205    Customer 64 arrives.
+209    Customer 44 Departs
+209    Customer 45's service time starts
+210    Customer 65 arrives.
+211    Customer 45 Departs
+211    Customer 66 arrives.
+211    Customer 46's service time starts
+212    Customer 67 arrives.
+217    Customer 68 arrives.
+219    Customer 69 arrives.
+220    Customer 46 Departs
+220    Customer 47's service time starts
+223    Customer 47 Departs
+223    Customer 48's service time starts
+224    Customer 70 arrives.
+225    Customer 71 arrives.
+228    Customer 48 Departs
+228    Customer 49's service time starts
+230    Customer 72 arrives.
+233    Customer 49 Departs
+233    Customer 73 arrives.
+233    Customer 50's service time starts
+236    Customer 50 Departs
+236    Customer 51's service time starts
+238    Customer 74 arrives.
+238    Customer 51 Departs
+238    Customer 52's service time starts
+240    Customer 52 Departs
+240    Customer 53's service time starts
+242    Customer 53 Departs
+242    Customer 54's service time starts
+243    Customer 75 arrives.
+244    Customer 76 arrives.
+245    Customer 77 arrives.
+248    Customer 54 Departs
+248    Customer 55's service time starts
+249    Customer 78 arrives.
+253    Customer 55 Departs
+253    Customer 56's service time starts
+254    Customer 79 arrives.
+255    Customer 56 Departs
+255    Customer 57's service time starts
+258    Customer 80 arrives.
+260    Customer 57 Departs
+260    Customer 58's service time starts
+261    Customer 81 arrives.
+264    Customer 82 arrives.
+265    Customer 58 Departs
+265    Customer 59's service time starts
+267    Customer 83 arrives.
+271    Customer 59 Departs
+271    Customer 60's service time starts
+272    Customer 84 arrives.
+276    Customer 60 Departs
+276    Customer 85 arrives.
+276    Customer 61's service time starts
+281    Customer 86 arrives.
+282    Customer 61 Departs
+282    Customer 62's service time starts
+284    Customer 87 arrives.
+286    Customer 88 arrives.
+291    Customer 62 Departs
+291    Customer 89 arrives.
+291    Customer 63's service time starts
+294    Customer 63 Departs
+294    Customer 64's service time starts
+296    Customer 90 arrives.
+296    Customer 64 Departs
+296    Customer 65's service time starts
+299    Customer 91 arrives.
+302    Customer 65 Departs
+302    Customer 92 arrives.
+302    Customer 66's service time starts
+305    Customer 66 Departs
+305    Customer 67's service time starts
+306    Customer 93 arrives.
+307    Customer 94 arrives.
+308    Customer 67 Departs
+308    Customer 68's service time starts
+309    Customer 95 arrives.
+312    Customer 96 arrives.
+314    Customer 68 Departs
+314    Customer 69's service time starts
+315    Customer 97 arrives.
+317    Customer 69 Departs
+317    Customer 70's service time starts
+319    Customer 98 arrives.
+319    Customer 70 Departs
+319    Customer 71's service time starts
+323    Customer 99 arrives.
+327    Customer 100 arrives.
+328    Customer 71 Departs
+328    Customer 72's service time starts
+331    Customer 72 Departs
+331    Customer 73's service time starts
+332    Customer 101 arrives.
+337    Customer 73 Departs
+337    Customer 102 arrives.
+337    Customer 74's service time starts
+339    Customer 103 arrives.
+341    Customer 104 arrives.
+343    Customer 74 Departs
+343    Customer 75's service time starts
+344    Customer 105 arrives.
+347    Customer 106 arrives.
+348    Customer 75 Departs
+348    Customer 76's service time starts
+352    Customer 107 arrives.
+354    Customer 76 Departs
+354    Customer 77's service time starts
+356    Customer 77 Departs
+356    Customer 78's service time starts
+357    Customer 108 arrives.
+358    Customer 78 Departs
+358    Customer 109 arrives.
+358    Customer 79's service time starts
+359    Customer 110 arrives.
+362    Customer 111 arrives.
+364    Customer 79 Departs
+364    Customer 112 arrives.
+364    Customer 80's service time starts
+365    Customer 113 arrives.
+367    Customer 80 Departs
+367    Customer 81's service time starts
+370    Customer 114 arrives.
+372    Customer 115 arrives.
+375    Customer 116 arrives.
+376    Customer 81 Departs
+376    Customer 117 arrives.
+376    Customer 82's service time starts
+377    Customer 118 arrives.
+378    Customer 119 arrives.
+379    Customer 82 Departs
+379    Customer 83's service time starts
+381    Customer 120 arrives.
+382    Customer 121 arrives.
+384    Customer 83 Departs
+384    Customer 84's service time starts
+387    Customer 122 arrives.
+387    Customer 84 Departs
+387    Customer 85's service time starts
+389    Customer 123 arrives.
+390    Customer 124 arrives.
+393    Customer 85 Departs
+393    Customer 86's service time starts
+394    Customer 125 arrives.
+396    Customer 126 arrives.
+399    Customer 86 Departs
+399    Customer 87's service time starts
+401    Customer 127 arrives.
+402    Customer 128 arrives.
+404    Customer 129 arrives.
+405    Customer 87 Departs
+405    Customer 88's service time starts
+407    Customer 130 arrives.
+407    Customer 88 Departs
+407    Customer 89's service time starts
+410    Customer 89 Departs
+410    Customer 90's service time starts
+412    Customer 131 arrives.
+414    Customer 132 arrives.
+415    Customer 90 Departs
+415    Customer 133 arrives.
+415    Customer 91's service time starts
+420    Customer 134 arrives.
+424    Customer 91 Departs
+424    Customer 135 arrives.
+424    Customer 92's service time starts
+429    Customer 136 arrives.
+430    Customer 92 Departs
+430    Customer 93's service time starts
+434    Customer 137 arrives.
+436    Customer 93 Departs
+436    Customer 94's service time starts
+438    Customer 138 arrives.
+442    Customer 94 Departs
+442    Customer 139 arrives.
+442    Customer 95's service time starts
+443    Customer 140 arrives.
+444    Customer 95 Departs
+444    Customer 96's service time starts
+446    Customer 141 arrives.
+446    Customer 96 Departs
+446    Customer 97's service time starts
+451    Customer 142 arrives.
+455    Customer 97 Departs
+455    Customer 98's service time starts
+456    Customer 143 arrives.
+461    Customer 144 arrives.
+463    Customer 145 arrives.
+464    Customer 98 Departs
+464    Customer 99's service time starts
+466    Customer 99 Departs
+466    Customer 100's service time starts
+468    Customer 146 arrives.
+471    Customer 100 Departs
+471    Customer 101's service time starts
+473    Customer 147 arrives.
+474    Customer 101 Departs
+474    Customer 102's service time starts
+477    Customer 102 Departs
+477    Customer 103's service time starts
+478    Customer 148 arrives.
+479    Customer 103 Departs
+479    Customer 104's service time starts
+482    Customer 149 arrives.
+485    Customer 150 arrives.
+486    Customer 151 arrives.
+488    Customer 104 Departs
+488    Customer 105's service time starts
+490    Customer 105 Departs
+490    Customer 106's service time starts
+491    Customer 152 arrives.
+492    Customer 153 arrives.
+493    Customer 154 arrives.
+494    Customer 155 arrives.
+496    Customer 106 Departs
+496    Customer 107's service time starts
+499    Customer 156 arrives.
+502    Customer 107 Departs
+502    Customer 108's service time starts
+504    Customer 157 arrives.
+506    Customer 158 arrives.
+507    Customer 108 Departs
+507    Customer 109's service time starts
+510    Customer 159 arrives.
+511    Customer 160 arrives.
+512    Customer 161 arrives.
+513    Customer 109 Departs
+513    Customer 110's service time starts
+515    Customer 110 Departs
+515    Customer 111's service time starts
+516    Customer 162 arrives.
+517    Customer 111 Departs
+517    Customer 112's service time starts
+519    Customer 163 arrives.
+519    Customer 112 Departs
+519    Customer 113's service time starts
+521    Customer 164 arrives.
+524    Customer 113 Departs
+524    Customer 114's service time starts
+525    Customer 165 arrives.
+526    Customer 114 Departs
+526    Customer 115's service time starts
+527    Customer 166 arrives.
+528    Customer 115 Departs
+528    Customer 116's service time starts
+529    Customer 167 arrives.
+530    Customer 116 Departs
+530    Customer 117's service time starts
+531    Customer 168 arrives.
+533    Customer 169 arrives.
+536    Customer 117 Departs
+536    Customer 118's service time starts
+537    Customer 170 arrives.
+538    Customer 118 Departs
+538    Customer 119's service time starts
+541    Customer 171 arrives.
+542    Customer 172 arrives.
+543    Customer 119 Departs
+543    Customer 120's service time starts
+545    Customer 120 Departs
+545    Customer 121's service time starts
+547    Customer 173 arrives.
+548    Customer 174 arrives.
+549    Customer 175 arrives.
+550    Customer 121 Departs
+550    Customer 122's service time starts
+552    Customer 176 arrives.
+556    Customer 122 Departs
+556    Customer 177 arrives.
+556    Customer 123's service time starts
+557    Customer 178 arrives.
+558    Customer 179 arrives.
+559    Customer 123 Departs
+559    Customer 124's service time starts
+562    Customer 180 arrives.
+565    Customer 124 Departs
+565    Customer 125's service time starts
+566    Customer 181 arrives.
+568    Customer 182 arrives.
+570    Customer 125 Departs
+570    Customer 126's service time starts
+572    Customer 183 arrives.
+572    Customer 126 Departs
+572    Customer 127's service time starts
+574    Customer 184 arrives.
+575    Customer 185 arrives.
+578    Customer 127 Departs
+578    Customer 186 arrives.
+578    Customer 128's service time starts
+580    Customer 128 Departs
+580    Customer 129's service time starts
+581    Customer 187 arrives.
+582    Customer 129 Departs
+582    Customer 188 arrives.
+582    Customer 130's service time starts
+583    Customer 189 arrives.
+585    Customer 190 arrives.
+587    Customer 191 arrives.
+591    Customer 130 Departs
+591    Customer 192 arrives.
+591    Customer 131's service time starts
+595    Customer 193 arrives.
+596    Customer 194 arrives.
+598    Customer 195 arrives.
+600    Customer 131 Departs
+600    Customer 132's service time starts
+603    Customer 196 arrives.
+606    Customer 132 Departs
+606    Customer 133's service time starts
+607    Customer 197 arrives.
+608    Customer 133 Departs
+608    Customer 198 arrives.
+608    Customer 134's service time starts
+609    Customer 199 arrives.
+610    Customer 200 arrives.
+614    Customer 134 Departs
+614    Customer 135's service time starts
+617    Customer 135 Departs
+617    Customer 136's service time starts
+622    Customer 136 Departs
+622    Customer 137's service time starts
+624    Customer 137 Departs
+624    Customer 138's service time starts
+629    Customer 138 Departs
+629    Customer 139's service time starts
+631    Customer 139 Departs
+631    Customer 140's service time starts
+633    Customer 140 Departs
+633    Customer 141's service time starts
+635    Customer 141 Departs
+635    Customer 142's service time starts
+638    Customer 142 Departs
+638    Customer 143's service time starts
+640    Customer 143 Departs
+640    Customer 144's service time starts
+642    Customer 144 Departs
+642    Customer 145's service time starts
+648    Customer 145 Departs
+648    Customer 146's service time starts
+657    Customer 146 Departs
+657    Customer 147's service time starts
+663    Customer 147 Departs
+663    Customer 148's service time starts
+665    Customer 148 Departs
+665    Customer 149's service time starts
+668    Customer 149 Departs
+668    Customer 150's service time starts
+670    Customer 150 Departs
+670    Customer 151's service time starts
+672    Customer 151 Departs
+672    Customer 152's service time starts
+678    Customer 152 Departs
+678    Customer 153's service time starts
+684    Customer 153 Departs
+684    Customer 154's service time starts
+690    Customer 154 Departs
+690    Customer 155's service time starts
+692    Customer 155 Departs
+692    Customer 156's service time starts
+697    Customer 156 Departs
+697    Customer 157's service time starts
+706    Customer 157 Departs
+706    Customer 158's service time starts
+715    Customer 158 Departs
+715    Customer 159's service time starts
+724    Customer 159 Departs
+724    Customer 160's service time starts
+729    Customer 160 Departs
+729    Customer 161's service time starts
+738    Customer 161 Departs
+738    Customer 162's service time starts
+743    Customer 162 Departs
+743    Customer 163's service time starts
+745    Customer 163 Departs
+745    Customer 164's service time starts
+748    Customer 164 Departs
+748    Customer 165's service time starts
+750    Customer 165 Departs
+750    Customer 166's service time starts
+759    Customer 166 Departs
+759    Customer 167's service time starts
+761    Customer 167 Departs
+761    Customer 168's service time starts
+766    Customer 168 Departs
+766    Customer 169's service time starts
+768    Customer 169 Departs
+768    Customer 170's service time starts
+777    Customer 170 Departs
+777    Customer 171's service time starts
+786    Customer 171 Departs
+786    Customer 172's service time starts
+788    Customer 172 Departs
+788    Customer 173's service time starts
+790    Customer 173 Departs
+790    Customer 174's service time starts
+793    Customer 174 Departs
+793    Customer 175's service time starts
+796    Customer 175 Departs
+796    Customer 176's service time starts
+802    Customer 176 Departs
+802    Customer 177's service time starts
+805    Customer 177 Departs
+805    Customer 178's service time starts
+807    Customer 178 Departs
+807    Customer 179's service time starts
+809    Customer 179 Departs
+809    Customer 180's service time starts
+812    Customer 180 Departs
+812    Customer 181's service time starts
+817    Customer 181 Departs
+817    Customer 182's service time starts
+820    Customer 182 Departs
+820    Customer 183's service time starts
+823    Customer 183 Departs
+823    Customer 184's service time starts
+828    Customer 184 Departs
+828    Customer 185's service time starts
+834    Customer 185 Departs
+834    Customer 186's service time starts
+839    Customer 186 Departs
+839    Customer 187's service time starts
+841    Customer 187 Departs
+841    Customer 188's service time starts
+847    Customer 188 Departs
+847    Customer 189's service time starts
+849    Customer 189 Departs
+849    Customer 190's service time starts
+852    Customer 190 Departs
+852    Customer 191's service time starts
+854    Customer 191 Departs
+854    Customer 192's service time starts
+860    Customer 192 Departs
+860    Customer 193's service time starts
+865    Customer 193 Departs
+865    Customer 194's service time starts
+867    Customer 194 Departs
+867    Customer 195's service time starts
+870    Customer 195 Departs
+870    Customer 196's service time starts
+875    Customer 196 Departs
+875    Customer 197's service time starts
+884    Customer 197 Departs
+884    Customer 198's service time starts
+889    Customer 198 Departs
+889    Customer 199's service time starts
+895    Customer 199 Departs
+895    Customer 200's service time starts
+900    Customer 200 Departs
